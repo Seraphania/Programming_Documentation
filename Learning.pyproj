@@ -67,7 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="2_Functions_and_Modules\FileToBeHandled.txt" />
-    <Content Include="Original Prompt.txt" />
+    <Content Include="Learning Python with ChatGPT.md" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
