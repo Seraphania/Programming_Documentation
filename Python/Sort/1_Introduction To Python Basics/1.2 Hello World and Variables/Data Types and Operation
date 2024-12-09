@@ -1,0 +1,138 @@
+Data Types and Operation
+Explore common data types (lists, tuples, dictionaries) and basic operations.
+
+eep up the good work! Now, let's move on to the next task.
+Task 2: Variables and Data Types
+
+Create a script that declares variables of different data types (integer, float, string) and prints them. For example:
+
+python
+
+# Example
+age = 25
+height = 1.75
+name = "John"
+
+print("Name:", name)
+print("Age:", age)
+print("Height:", height)
+
+Feel free to modify the values or add more variables. Once you've done this, let me know, and we'll discuss it!
+
+___
+all done:
+
+age = 38
+height = 1.6
+name = "Amanda"
+
+print ("Name: ", name)
+print ("Height: ", height)
+print ("Age: ", age)
+
+ChatGPT
+
+Fantastic! You've successfully created a Python script that uses variables and prints their values. Here's some feedback:
+
+    Variable Declaration:
+        You correctly declared three variables (age, height, and name).
+
+    Data Types:
+        You used different data types: int for age, float for height, and str for name. This demonstrates Python's dynamic typing.
+
+    Print Statements:
+        You used the print() function to display the values of the variables.
+
+    Formatting:
+        Your script is well-formatted and easy to read. Good job!
+
+Now, let's move on to the next task.
+Task 3: Basic Operations
+
+Create a script that performs basic operations on numbers. Declare two variables (e.g., num1 and num2), and then perform addition, subtraction, multiplication, and division. Print the results.
+
+python
+
+# Example
+num1 = 10
+num2 = 5
+
+# Perform operations
+sum_result = num1 + num2
+difference_result = num1 - num2
+product_result = num1 * num2
+division_result = num1 / num2
+
+# Print results
+print("Sum:", sum_result)
+print("Difference:", difference_result)
+print("Product:", product_result)
+print("Division:", division_result)
+
+Give it a try, and let me know when you're ready to move forward!
+
+___
+
+Will do, where possible could you not show me the code solution until i have attempted it myself?
+ChatGPT
+
+Absolutely, I'll refrain from providing the solution until you've had a chance to attempt the task. Take your time, and whenever you're ready, share your solution, and we can discuss it!
+
+___
+Getting Fancy now:
+
+## Numerical operations
+
+#Define Numbers
+num1 = 5
+num2 = 3
+
+## Perform Opertaions
+sum_result = num1 + num2
+subtract_result = num1 - num2
+product_result = num1 * num2
+division_result = num1 / num2
+
+#Print results
+print ("The numbers are: ", num1, " and ",num2)
+print ("Sum is: ", sum_result)
+print ("Difference is: ", subtract_result)
+print ("Product is: ", product_result)
+print ("Division is: ", division_result)## Numerical operations
+
+#Define Numbers
+num1 = 5
+num2 = 3
+
+## Perform Opertaions
+sum_result = num1 + num2
+subtract_result = num1 - num2
+product_result = num1 * num2
+division_result = num1 / num2
+
+#Print results
+print ("The numbers are: ", num1, " and ",num2)
+print ("Sum is: ", sum_result)
+print ("Difference is: ", subtract_result)
+print ("Product is: ", product_result)
+print ("Division is: ", division_result)
+
+ChatGPT
+
+Excellent job! You've successfully created a Python script that performs basic numerical operations. Here's some feedback:
+
+    Variable Naming:
+        You appropriately named your variables (num1, num2, sum_result, etc.), which makes your code easy to understand.
+
+    Performing Operations:
+        You correctly used operators for addition, subtraction, multiplication, and division to perform operations.
+
+    Print Statements:
+        Your print statements effectively display the numbers and the results of the operations.
+
+    Code Repetition:
+        In Python, you don't need to declare the variables twice. You can reuse the same variables throughout your script.
+
+Great work! Let's continue with the next task.
+
+

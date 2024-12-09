@@ -3,307 +3,22 @@ Index for python learning
 
 https://apps.cognitiveclass.ai/learning/course/course-v1:CognitiveClass+PY0101EN+v3/home
 
-## Module 1 - Python Basics
+### Module 1 - Python Basics
         Understand the available data types in Python
         Be familiar with Python expressions and variables
         Be able to perform basic operations on strings
-### 1.1. **Hello World**
-*Let’s try your first program in Python. A statement or expression is an instruction
-the computer will run or execute. Perhaps the simplest program you can write
-is a print statement. When you run the print statement, Python will
-simply display the value in the parentheses. The value in the parentheses is called the
-argument. If you are using a Jupiter notebook in this
-course, you will see a small rectangle with the statement.
-This is called a cell. If you select this cell with your mouse, then
-click the run cell button. The statement will execute. The result will be displayed beneath
-the cell. We will follow this paradigm in the videos.
-It’s customary to comment your code. This tells other people what your code does. You
-simply put a hash symbol proceeding your comment. When you run the code, Python will ignore
-the comment. A Syntactic error is when Python does not
-understand your code. For example, if you spell print "frint", you will get an error
-message. A Semantic error is when your logic is wrong.
-For example, if you enter Python 102 instead of Python 101, you don't get an error message,
-but your code is wrong*
+1.1. **Hello World**
+1.2 **Types**
+1.3 **Expressions and Variables**
+1.4 **String Operations**
 
-### 1.2 **Types**
-*A type is how Python represents different types of data. In this video, we will discuss
-some widely used types in Python. You can have different types in Python.
-They can be integers like 11, real numbers like 21.213. They can even be words.
-Integers, real numbers and words can be expressed as different data types.
-The following chart summarizes three data types for the last examples.
-The first column indicates the expression. The second column indicates the data type.
-We can see the actual data type in Python by using the type command.
-We can have int, which stands for an integer, and float that stands for float, essentially
-a real number. The type string is a sequence of characters.
-Here are some integers; integers can be negative or positive.
-It should be noted that there is a finite range of integers, but it is quite large.
-Floats are real numbers; they include the integers but also numbers in between the integers.
-Consider the numbers between 0 and 1. We can select numbers in between them; these numbers
-are floats. Similarly, consider the numbers between 0.5
-and 0.6. We can select numbers in-between them; these are floats as well.
-We can continue the process, zooming in for different numbers. Of course, there is a limit,
-but it is quite small. You can change the type of the expression
-in Python; this is called type casting. You can convert an int to a float.
-For example, you can convert or cast the integer 2 to a float 2.
-Nothing really changes. If you cast a float to an integer, you must
-be careful. For example, if you cast the float 1.1 to
-1, you will lose some information. If a string contains an integer value, you
-can convert it to int. If we convert a string that contains a non-integer
-value, we get an error. Check out more examples in the lab.
-You can convert an int to a string or a float to a string.
-Boolean is another important type in Python. A Boolean can take on two values.
-The first value is true, just remember we use an uppercase T.
-Boolean values can also be false, with an uppercase F.
-Using the type command on a Boolean value, we obtain the term bool, this is short for
-Boolean. If we cast a Boolean true to an integer or
-float, we will get a 1. If we cast a Boolean false to an integer or
-float, we get a zero. If you cast a 1 to a Boolean, you get a true.
-Similarly, if you cast a 0 to a Boolean, you get a false.
-Check the labs for more examples or check Python.org for other kinds of types in Python.*
-
-### 1.3 **Expressions and Variables**
-*In this video we’ll cover expressions and variables.
-Expressions describe a type of operation that computers perform.
-Expressions are operations that Python performs. For example, basic arithmetic operations like
-adding multiple numbers. The result, in this case, is 160.
-We call the numbers operands and the maths symbols, in this case addition, are called
-operators. We can perform operations such as subtraction
-using the subtraction sign. In this case, the result is a negative number.
-We can perform multiplication operations using the asterisk. The result is 25.
-In this case the operands are given by – and *.
-We can also perform division with the forward slash.
-25 divided by 5 is 5. 25 divided by 6 is approximately 4.167.
-In Python 3, the version we will be using in this course, both will result in a float.
-We can use the double slash for integer division, where the result is rounded.
-Be aware, in some cases, the results are not the same as regular division.
-Python follows mathematical conventions when performing mathematical expressions.
-The following operations are in a different order.
-In both cases, Python performs multiplication, then addition to obtain the final result.
-There are a lot more operations you can do with Python. Check the labs for more examples.
-We will also be covering more complex operations throughout the course.
-The expressions in the parentheses are performed first. We then multiply the result by 60,
-the result is 1920. Now let’s look at variables.
-We can use variables to store values, in this case, we assign a value of 1 to the variable
-my_variable using the assignment operator i.e., the equals sign.
-We can then use the value somewhere else in the code by typing the exact name of the variable.
-We will use a colon do denote the value of the variable.
-We can assign a new value to my_variable using the assignment operator.
-We assign a value of 10. The variable now has a value of 10.
-The old value of the variable is not important. We can store the results of expressions, for
-example, we add several values and assign the result to x.
-x now stores the result. We can also perform operations on x and save
-the result to a new variable y. y now has a value of 2.666
-We can also perform operations on x and assign the value x.
-The variable x now has a value 2.666. As before, the old value of x is not important.
-We can use the type command in variables as well.
-It's good practice to use meaningful variable names, so you don't have to keep track of
-what the variable is doing. Let’s say we would like to convert the number
-of minutes in the highlighted examples to number of hours in the following music dataset.
-We call the variable that contains the total number of minutes, total_min. It’s common
-to use the underscore to represent the start of a new word, you can also use a capital
-letter. We call the variable that contains the total
-number of hours total_hr. We can obtain the total number of hours by
-dividing total_min by 60. The result is approximately 2.367 hours.
-If we modify the value of the first variable, the value of the variable will change.
-The final result values change accordingly, but we do not have to modify the rest of the
-code.*
-
-### 1.4 **String Operations**
-*In Python, a string is a sequence of characters. A string is contained within two quotes:
-You could also use single quotes. A string can be spaces, or digits.
-A string can also be special characters. We can bind or assign a string to another
-variable. It is helpful to think of a string as an ordered
-sequence. Each element in the sequence can be accessed
-using an index represented by the array of numbers.
-The first index can be accessed as follows. We can access index 6.
-Moreover, we can access the 13th index. We can also use negative indexing with strings.
-The last element is given by the index -1. The first element can be obtained by index
--15, and so on. We can bind a string to another variable.
-It is helpful to think of string as a list or tuple.
-We can treat the string as a sequence and perform sequence operations.
-We can also input a stride value as follows. The 2 indicates we select every second variable.
-We can also incorporate slicing. In this case. we return every second value
-up to index four. We can use the “len” command to obtain
-the length of the string. As there are 15 elements, the result is 15.
-We can concatenate or combine strings. We use the addition symbols.
-The result is a new string that is a combination of both.
-We can replicate values of a string. We simply multiply the string by the number
-of times we would like to replicate it, in this case, three.
-The result is a new string. The new string consists of three copies of
-the original string. This means you cannot change the value of
-the string, but you can create a new string. For example, you can create a new string by
-setting it to the original variable and concatenated with a new string.
-The result is a new string that changes from Michael Jackson to “Michael Jackson is the
-best.” Strings are immutable.
-Backslashes represent the beginning of escape sequences.
-Escape sequences represent strings that may be difficult to input.
-For example, backslashes "n" represent a new line.
-The output is given by a new line after the backslashes "n” is encountered.
-Similarly, backslash "t" represents a tab. The output is given by a tab where the backslash
-"t" is. If you want to place a backslash in your string,
-use a double backslash. The result is a backslash after the escape
-sequence. We can also place an r in front of the string.
-Now let’s take a look at String Methods. Strings are sequences and, as such, have apply
-methods that work on lists and tuples. Strings also have a second set of methods
-that just work on strings. When we apply a method to the string "A”,
-we get a new string “B" that is different from "A".
-Let’s do some examples. Let's try with the method upper.
-This method converts lower case characters to upper case characters.
-In this example, we set the variable A to the following value.
-We apply the method "upper" and set it equal to "B“.
-The value for B is similar to "A" but all the characters are uppercase.
-The method replaces a segment of the string, i.e., a substring with a new string.
-We input the part of the string we would like to change.
-The second argument is what we would like to exchange the segment with.
-The result is a new string with the segment changed.
-The method find, finds sub-strings. The argument is the sub-string you would like
-to find. The output is the first index of the sequence.
-We can find the sub-string Jack. If the sub-string is not in the string, the
-output is negative one. Check the labs for more examples.*
 ___
-## Module 2 - Python Data Structures
+### Module 2 - Python Data Structures
             Lists and Tuples 
             Sets
             Dictionaries 
-### 2.1 **Lists and Tuples**
-*In this video, we will cover lists and tuples. These are called compound data types and are
-one of the key types of data structures in Python.
-Tuples Tuples are an ordered sequence.
-Here is a Tuple “Ratings.”
-Tuples are expressed as comma-separated elements within parentheses.
-These are values inside the parentheses.
-In Python, there are different types: strings, integer, float.
-They can all be contained in a tuple, but the type of the variable is tuple.
-Each element of a tuple can be accessed via an index.
-The following table represents the relationship between the index and the elements in the
-tuple.
-The first element can be accessed by the name of the tuple followed by a square bracket
-with the index number, in this case, zero.
-We can access the second element as follows.
-We can also access the last element.
-In Python, we can use negative index.
-The relationship is as follows.
-The corresponding values are shown here.
-We can concatenate or combine tuples by adding them.
-The result is the following with the following index.
-If we would like multiple elements from a tuple, we could also slice tuples.
-For example, if we want the first three elements, we use the following command.
-The last index is 1 larger than the index you want.
-Similarly, if we want the last two elements, we use the following command.
-Notice how the last index is 1 larger than the length of the tuple.
-We can use the “len” command to obtain the length of a tuple.
-As there are 5 elements, the result is five.
-Tuples are immutable, which means we can't change them.
-To see why this is important, let's see what happens when we set the variable Ratings 1
-to ratings.
-Let's use the image to provide a simplified explanation of what’s going on.
-Each variable does not contain a tuple, but references the same immutable tuple object.
-See the ‘objects and classes’ module for more about objects.
-Let's say we want to change the element at index 2.
-Because tuples are immutable, we can't.
-Therefore, Ratings 1 will not be affected by a change in Rating because the tuple is
-immutable i.e., we can't change it.
-We can assign a different tuple to the Ratings variable.
-The variable Ratings now references another tuple.
-As a consequence of immutability, if we would like to manipulate a tuple, we must create
-a new tuple instead.
-For example, if we would like to sort a tuple, we use the function sorted.
-The input is the original tuple.
-The output is a new sorted tuple.
-For more on functions, see our video on functions.
-A tuple can contain other tuples as well as other complex data types; this is called nesting.
-We can access these elements using the standard indexing methods.
-If we select an index with a tuple, the same index convention applies.
-As such, we can then access values in the tuple.
-For example, we could access the second element.
-We can apply this indexing directly to the tuple variable NT.
-It is helpful to visualize this as a tree.
-We can visualize this nesting as a tree.
-The tuple has the following indexes.
-If we consider indexes with other tuples, we see the tuple at index 2 contains a tuple
-with two elements.
-We can access those two indexes.
-The same convention applies to index 3.
-We can access the elements in those tuples as well.
-We can continue the process.
-We can even access deeper levels of the tree by adding another square bracket.
-We can access different characters in the string or various elements in the second tuple
-contained in the first.
-Lists are also a popular data structure in Python.
-Lists are also an ordered sequence.
-Here is a list L. A list is represented with square brackets.
-In many respects lists are like tuples, one key difference is they are mutable.
-Lists can contain strings, floats, integers.
-We can nest other lists.
-We also nest tuples and other data structures; the same indexing conventions apply for nesting.
-Like tuples, each element of a list can be accessed via an index.
-The following table represents the relationship between the index and the elements in the
-list.
-The first element can be accessed by the name of the list followed by a square bracket with
-the index number, in this case zero.
-We can access the second element as follows.
-We can also access the last element.
-In Python, we can use a negative index.
-The relationship is as follows.
-The corresponding indexes are as follows.
-We can also perform slicing in lists.
-For example, if we want the last two elements in this list we use the following command.
-Notice how the last index is 1 larger than the length of the list.
-The index conventions for lists and tuples are identical.
-Check the labs for more examples.
-We can concatenate or combine lists by adding them.
-The result is the following.
-The new list has the following indices.
-Lists are mutable, therefore, we can change them.
-For example, we apply the method extends by adding a "dot" followed by the name of the
-method, then parenthesis.
-The argument inside the parenthesis is a new list that we are going to concatenate to the
-original list.
-In this case, instead of creating a new list, L1, the original list L is modified by adding
-two new elements.
-To learn more about methods check out our video on objects and classes.
-Another similar method is append.
-If we apply append instead of extended we add one element to the list.
-If we look at the index, there is only one more element.
-Index 3 contains the list we appended.
-Every time we apply a method, the lists changes.
-If we apply extend, we add two new elements to the list.
-The list L is modified by adding two new elements.
-If we append the string “A“, we further change the list adding the string “A”.
-As lists are mutable, we can change them.
-For example, we can change the first element as follows.
-The list now becomes: “hard rock”, 10, 1.2.
-We can delete an element of a list using the "del" command; we simply indicate the list
-item we would like to remove as an argument.
-For example, if we would like to remove the first element, the result becomes 10,1.2.
-We can delete the second element.
-This operation removes the second element of the list.
-We can convert a string to a list using split.
-For example, the method split converts every group of characters separated by a space into
-an element of a list.
-We can use the split function to separate strings on a specific character, known as
-a delimiter.
-We simply pass the delimiter we would like to split on as an argument, in this case a
-comma.
-The result is a list, each element corresponds to a set of characters that have been separated
-by a comma.
-When we set one variable, B equal to A, both A and B are referencing the same list.
-Multiple names referring to the same object is known as aliasing.
-We know from the last slide that the first element in B is set as hard rock.
-If we change the first element in “A” to “banana” we get a side effect; the
-value of B will change as a consequence.
-"A" and “B” are referencing the same list, therefore if we change "A“, list "B" also
-changes.
-If we check the first element of B after changing list ”A” we get banana instead of hard
-rock.
-You can clone list “A” by using the following syntax.
-Variable "A" references one list.
-Variable “B” references a new copy or clone of the original list.
-Now if you change “A”, "B" will not change.
-We can get more info on lists, tuples and many other objects in Python using the help
-command.
-Simply pass in the list, tuple or any other Python object.
-See the labs for more things you can do with lists.*
+2.1 **Lists and Tuples**
+
 
 ### 2.2 **Sets**
 *Let’s cover sets; they are also a type of collection.
@@ -957,7 +672,7 @@ the object’s methods and data attributes. There is a lot more you can do with 
 in Python. Check python.org for more info.*
 
 ### 3.5 **Exception Handling**
-[Exception Handling](Exception Handling)
+[Exception Handling](Exception_Handling.md)
 ___
 
 ## Module 4 - Working with Data in Python
@@ -965,5 +680,3 @@ ___
 
 Module 5 - Working with Numpy Arrays & Simple APIs
 
-
-https://apps.cognitiveclass.ai/learning/course/course-v1:CognitiveClass+PY0101EN+v3/home
