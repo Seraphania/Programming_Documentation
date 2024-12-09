@@ -26,7 +26,7 @@ ___
 <summary>
 3.5 [Exception Handling](\Python\3%Python%Programming%Fundamentals%(Flow%Control)\3.5 Exception%Handling.md) 
 </summary>
-
+</details>
 ___
 
 ## Module 4 - Working with Data in Python
@@ -34,3 +34,4 @@ ___
 
 Module 5 - Working with Numpy Arrays & Simple APIs
 
+...
