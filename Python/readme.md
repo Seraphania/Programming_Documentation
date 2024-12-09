@@ -1,4 +1,4 @@
-Make this a Table of contents (needs cleanup)
+Index for python learning
 
 
 https://apps.cognitiveclass.ai/learning/course/course-v1:CognitiveClass+PY0101EN+v3/home
