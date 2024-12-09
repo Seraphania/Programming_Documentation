@@ -1,0 +1,565 @@
+<p style="text-align:center">
+    <a href="https://skills.network" target="_blank">
+    <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/assets/logos/SN_web_lightmode.png" width="200" alt="Skills Network Logo">
+    </a>
+</p>
+
+
+# **Exception Handling**
+
+Estimated time needed: **15** minutes
+    
+
+## Objectives
+
+After completing this lab you will be able to:
+
+* Understand exceptions    
+* Handle the exceptions
+
+
+## Table of Contents
+
+
+* What is an Exception?
+* Exception Handling
+
+
+----
+
+
+## What is an Exception?
+
+
+In this section you will learn about what an exception is and see examples of them.
+
+
+### Definition
+
+
+An exception is an error that occurs during the execution of code. This error causes the code to raise an exception and if not prepared to handle it will halt the execution of the code.
+
+
+### Examples
+
+
+Run each piece of code and observe the exception raised
+
+
+
+```python
+1/0
+```
+
+
+    ---------------------------------------------------------------------------
+
+    ZeroDivisionError                         Traceback (most recent call last)
+
+    /tmp/ipykernel_68/2354412189.py in <module>
+    ----> 1 1/0
+    
+
+    ZeroDivisionError: division by zero
+
+
+<code>ZeroDivisionError</code> occurs when you try to divide by zero.
+
+
+
+```python
+y = a + 5
+```
+
+
+    ---------------------------------------------------------------------------
+
+    NameError                                 Traceback (most recent call last)
+
+    /tmp/ipykernel_68/1161414849.py in <module>
+    ----> 1 y = a + 5
+    
+
+    NameError: name 'a' is not defined
+
+
+<code>NameError</code> -- in this case, it means that you tried to use the variable a when it was not defined.
+
+
+
+```python
+a = [1, 2, 3]
+a[10]
+```
+
+
+    ---------------------------------------------------------------------------
+
+    IndexError                                Traceback (most recent call last)
+
+    /tmp/ipykernel_68/1542938915.py in <module>
+          1 a = [1, 2, 3]
+    ----> 2 a[10]
+    
+
+    IndexError: list index out of range
+
+
+<code>IndexError</code> -- in this case, it occured because you tried to access data from a list using an index that does not exist for this list.
+
+
+There are many more exceptions that are built into Python, here is a list of them https://docs.python.org/3/library/exceptions.html
+
+
+## Exception Handling
+
+
+In this section you will learn how to handle exceptions. You will understand how to make your program perform specified tasks instead of halting code execution when an exception is encountered.
+
+
+### Try Except
+
+
+A <code>try except</code> will allow you to execute code that might raise an exception and in the case of any exception or a specific one we can handle or catch the exception and execute specific code. This will allow us to continue the execution of our program even if there is an exception.
+
+Python tries to execute the code in the <code>try</code> block. In this case if there is any exception raised by the code in the <code>try</code> block, it will be caught and the code block in the <code>except</code> block will be executed. After that, the code that comes <em>after</em> the try except will be executed.
+
+
+
+```python
+# potential code before try catch
+
+try:
+    # code to try to execute
+except:
+    # code to execute if there is an exception
+    
+# code that will still execute if there is an exception
+```
+
+### Try Except Example
+
+
+In this example we are trying to divide a number given by the user, save the outcome in the variable <code>a</code>, and then we would like to print the result of the operation. When taking user input and dividing a number by it there are a couple of exceptions that can be raised. For example if we divide by zero. Try running the following block of code with <code>b</code> as a number. An exception will only be raised if <code>b</code> is zero.
+
+
+
+```python
+a = 1
+
+try:
+    b = int(input("Please enter a number to divide a"))
+    a = a/b
+    print("Success a=",a)
+except:
+    print("There was an error")
+        
+
+```
+
+### Try Except Specific
+
+
+A specific <code>try except</code> allows you to catch certain exceptions and also execute certain code depending on the exception. This is useful if you do not want to deal with some exceptions and the execution should halt. It can also help you find errors in your code that you might not be aware of. Furthermore, it can help you differentiate responses to different exceptions. In this case, the code after the try except might not run depending on the error.
+
+
+<b>Do not run, just to illustrate:</b>
+
+
+
+```python
+# potential code before try catch
+
+try:
+    # code to try to execute
+except (ZeroDivisionError, NameError):
+    # code to execute if there is an exception of the given types
+    
+# code that will execute if there is no exception or a one that we are handling
+```
+
+
+      File "/tmp/ipykernel_68/2752586831.py", line 5
+        except (ZeroDivisionError, NameError):
+             ^
+    IndentationError: expected an indented block
+
+
+
+
+```python
+# potential code before try catch
+
+try:
+    # code to try to execute
+except ZeroDivisionError:
+    # code to execute if there is a ZeroDivisionError
+except NameError:
+    # code to execute if there is a NameError
+    
+# code that will execute if there is no exception or a one that we are handling
+```
+
+You can also have an empty <code>except</code> at the end to catch an unexpected exception:
+
+
+<b>Do not run, just to illustrate:</b>
+
+
+
+```python
+# potential code before try catch
+
+try:
+    # code to try to execute
+except ZeroDivisionError:
+    # code to execute if there is a ZeroDivisionError
+except NameError:
+    # code to execute if there is a NameError
+except:
+    # code to execute if ther is any exception
+    
+# code that will execute if there is no exception or a one that we are handling
+```
+
+### Try Except Specific Example
+
+
+This is the same example as above, but now we will add differentiated messages depending on the exception, letting the user know what is wrong with the input.
+
+
+
+```python
+a = 1
+
+try:
+    b = int(input("Please enter a number to divide a"))
+    a = a/b
+    print("Success a=",a)
+except ZeroDivisionError:
+    print("The number you provided cant divide 1 because it is 0")
+except ValueError:
+    print("You did not provide a number")
+except:
+    print("Something went wrong")
+        
+
+```
+
+### Try Except Else and Finally
+
+
+<code>else</code> allows one to check if there was no exception when executing the try block. This is useful when we want to execute something only if there were no errors.
+
+
+<b>do not run, just to illustrate</b>
+
+
+
+```python
+# potential code before try catch
+
+try:
+    # code to try to execute
+except ZeroDivisionError:
+    # code to execute if there is a ZeroDivisionError
+except NameError:
+    # code to execute if there is a NameError
+except:
+    # code to execute if ther is any exception
+else:
+    # code to execute if there is no exception
+    
+# code that will execute if there is no exception or a one that we are handling
+```
+
+<code>finally</code> allows us to always execute something even if there is an exception or not. This is usually used to signify the end of the try except.
+
+
+
+```python
+# potential code before try catch
+
+try:
+    # code to try to execute
+except ZeroDivisionError:
+    # code to execute if there is a ZeroDivisionError
+except NameError:
+    # code to execute if there is a NameError
+except:
+    # code to execute if ther is any exception
+else:
+    # code to execute if there is no exception
+finally:
+    # code to execute at the end of the try except no matter what
+    
+# code that will execute if there is no exception or a one that we are handling
+```
+
+### Try Except Else and Finally Example
+
+
+You might have noticed that even if there is an error the value of <code>a</code> is always printed. Let's use the <code>else</code> and print the value of <code>a</code> only if there is no error.
+
+
+
+```python
+a = 1
+
+try:
+    b = int(input("Please enter a number to divide a"))
+    a = a/b
+except ZeroDivisionError:
+    print("The number you provided cant divide 1 because it is 0")
+except ValueError:
+    print("You did not provide a number")
+except:
+    print("Something went wrong")
+else:
+    print("success a=",a)
+```
+
+Now lets let the user know that we are done processing their answer. Using the <code>finally</code>, let's add a print.
+
+
+
+```python
+a = 1
+
+try:
+    b = int(input("Please enter a number to divide a"))
+    a = a/b
+except ZeroDivisionError:
+    print("The number you provided cant divide 1 because it is 0")
+except ValueError:
+    print("You did not provide a number")
+except:
+    print("Something went wrong")
+else:
+    print("success a=",a)
+finally:
+    print("Processing Complete")
+```
+
+<center>
+    
+    
+# Practice Exercises 
+
+</center>
+
+
+## Exercise 1: Handling ZeroDivisionError
+
+
+Imagine you have two numbers and want to determine what happens when you divide one number by the other. To do this, you need to create a Python function called `safe_divide.` You give this function two numbers, a `'numerator'` and a `'denominator'`. The 'numerator' is the number you want to divide, and the `'denominator'` is the number you want to divide by. Use the user input method of Python to take the values.
+
+The function should be able to do the division for you and give you the result. But here's the catch: if you try to divide by zero (which is not allowed in math), the function should be smart enough to catch that and tell you that it's not possible to divide by zero. Instead of showing an error, it should return None, which means 'nothing' or 'no value', and print `"Error: Cannot divide by Zero.`
+
+
+
+```python
+#Type your code here
+def safe_divide(n,d):
+    try:
+        type(n) == int or type(n) == float
+    except ValueError:
+        n = int(input("Please enter a number for the numerator: "))
+    except ZeroDivisionError:
+        d = input("The number you provided cant divide 1 because it is 0\nPlease enter a number other than 0: ")
+    except:
+        print("Something went wrong")
+    else:
+        print(f"{n}/{d}={n/d}")
+
+n = int(input("Please enter a numerator: "))
+d = input("Please enter a denominator: ")
+safe_divde(n,d)
+```
+
+    Please enter a numerator:  1
+    Please enter a denominator:  5
+
+
+
+    ---------------------------------------------------------------------------
+
+    NameError                                 Traceback (most recent call last)
+
+    /tmp/ipykernel_68/1213411058.py in <module>
+         14 n = int(input("Please enter a numerator: "))
+         15 d = input("Please enter a denominator: ")
+    ---> 16 safe_divde(n,d)
+    
+
+    NameError: name 'safe_divde' is not defined
+
+
+**Note:- Practice handling exceptions by trying different input types like using integers, strings, zero, negative values, or other data types.**
+
+
+<details><summary>Click here for the hints</summary>
+
+```python
+Follow these: -
+* Define a function to perform the division and use two arguments.
+* Use the try-except block to handle ZeroDivisionError.
+* Return the result of the division if no error occurs.
+* Return None if division by zero occurs.
+* take user input for numerator and denominator values.
+* call and print your function with the user inputs.
+**Note:- Test with different inputs to validate error handling.**
+```
+
+</details>
+
+
+
+<details><summary>Click here for the solution</summary>
+
+```python
+
+def safe_divide(numerator,denominator):
+    try:
+        result = numerator / denominator
+        return result
+    except ZeroDivisionError:
+        print("Error: Cannot divide by zero.")
+        return None
+# Test case
+numerator=int(input("Enter the numerator value:-"))
+denominator=int(input("Enter the denominator value:-"))
+print(safe_divide(numerator,denominator)) 
+```
+
+</details>
+
+
+## Exercise 2: Handling ValueError
+
+
+Imagine you have a number and want to calculate its square root. To do this, you need to create a Python function. You give this function one number, `'number1'`.
+
+The function should generate the square root value if you provide a positive integer or float value as input. However, the function should be clever enough to detect the mistake if you enter a negative value. It should kindly inform you with a message saying, `'Invalid input! Please enter a positive integer or a float value.`
+
+
+
+```python
+#Type your code here
+```
+
+**Note:- Practice handling exceptions by trying different input types like using integers, strings, zero, negative values, or other data types.**
+
+
+<details><summary>Click here for the hints</summary>
+
+```python
+Follow these:-
+* Define a function to perform square root of the argument. 
+* Use try-except block for error handling.
+* Use `sqrt()` function from the `math` package to calculate the square root. Catch ValueError and display the error message."
+* Take user input of the value, number1. 
+* Test with negative numbers to validate error handling.
+```
+
+</details>
+
+
+<details><summary>Click here for the solution</summary>
+
+```python
+import math
+
+def perform_calculation(number1):
+    try:
+        result = math.sqrt(number1)
+        print(f"Result: {result}")
+    except ValueError:
+        print("Error: Invalid input! Please enter a positive integer or a float value.")
+# Test case
+number1=float(input("Enter the number:-"))
+perform_calculation(number1)
+```
+
+**Note:- Test with different inputs to validate error handling.**
+
+</details>
+
+
+## Exercise 3: Handling Generic Exceptions
+
+
+Imagine you have a number and want to perform a complex mathematical task. The calculation requires dividing the value of the input argument `"num"` by the difference between `"num"` and 5, and the result has to be stored in a variable called `"result"`.
+
+You have to define a function so that it can perform that complex mathematical task. The function should handle any potential errors that occur during the calculation. To do this, you can use a try-except block. If any exception arises during the calculation, it should catch the error using the generic exception class `"Exception" as "e"`. When an exception occurs, the function should display `"An error occurred during calculation.`
+
+
+
+```python
+#Type your code here
+```
+
+**Note:- Practice handling exceptions by trying different input types like using integers, strings, zero, negative values, or other data types.**
+
+
+<details><summary>Click here for the hints</summary>
+
+```python
+Follow these:-
+* Define a function for the complex calculation and pass any argument.
+* Use a try-except block for error handling.
+* Perform the calculation and store the result in "result."
+* Catch any exceptions using Exception as e.
+* Display "An error occurred during calculation." when an exception is caught.
+* take user input
+* Call the defined function with the user input
+**Note:- Test with different inputs to validate error handling.**
+```
+
+</details>
+
+
+<details><summary>Click here for the solution</summary>
+
+```python
+def complex_calculation(num):
+    try:
+        result = num / (num - 5)
+        print (f"Result: {result}")
+    except Exception as e:
+        print("An error occurred during calculation.")
+# Test case
+user_input = float(input("Enter a number: "))
+complex_calculation(user_input)
+```
+
+</details>
+
+
+## Authors
+
+
+<a href="https://www.linkedin.com/in/joseph-s-50398b136/" target="_blank">Joseph Santarcangelo</a>
+
+
+## <h3 align="center"> © IBM Corporation 2023. All rights reserved. <h3/>
+
+<!-- ## Change Log
+
+|  Date (YYYY-MM-DD) |  Version | Changed By  |  Change Description |
+|---|---|---|---|
+| 2023-11-02 | 2.2 | Abhishek Gagneja | Updated instructions |
+| 2023-08-01 | 2.1   | Akansha Yadav | Added optional practice section |
+| 2020-09-02  | 2.0  | Simran | Template updates to the file|
+|   |   |   |   | --!>
+
+
+
+
+
+
+
+
+```python
+
+```
