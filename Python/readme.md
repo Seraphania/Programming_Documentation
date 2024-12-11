@@ -1,37 +1,80 @@
 Index for python learning
- test vscode...
 
 https://apps.cognitiveclass.ai/learning/course/course-v1:CognitiveClass+PY0101EN+v3/home
 
 ### Module 1 - Python Basics
-1.1. **Hello World**
-1.2 **Types**
-1.3 **Expressions and Variables**
-1.4 **String Operations**
+<details>
+<summary><a href="\1 Python Basics\1.1 Hello World.md">1.1 Hello World</a></summary>
+Subsections Here
+</details>
+
+<details>
+<summary><a href="\1 Python Basics\1.2 Types.md">1.2 Types</a></summary>
+Subsections Here
+</details>
+
+<details>
+<summary><a href="\1 Python Basics\1.3 Expressions and Variables.md">1.3 Expressions and Variables</a></summary>
+Subsections Here
+</details>
+
+<details>
+<summary><a href="\1 Python Basics\1.4 String Operations.md">1.4 String Operations</a></summary>
+Subsections Here
+</details>
+
 
 ___
 ### Module 2 - Python Data Structures
-2.1 **Lists and Tuples**
-2.2 **Sets**
-2.3 **Dictionaries**
+<details>
+<summary><a href="\2 Python Data Structures\2.1 Lists and Tuples.md">2.1 Lists and Tuples</a></summary>
+Subsections Here
+</details>
+
+<details>
+<summary><a href="\2 Python Data Structures\2.2 Sets.md">2.2 Sets</a></summary>
+Subsections Here
+</details>
+
+<details>
+<summary><a href="\2 Python Data Structures\2.3 Dictionaries.md">2.3 Dictionaries</a></summary>
+Subsections Here
+</details>
 
 ___
 
 ## Module 3 - Python Programming Fundamentals (Flow Control)
-3.1 **Conditions and Branching**
-3.2 **Loops**
-3.3 **Functions**
-3.4 **Objects and Classes**
 <details>
-<summary>
-3.5 [Exception Handling](\Python\3%Python%Programming%Fundamentals%(Flow%Control)\3.5 Exception%Handling.md) 
-</summary>
+<summary><a href="\3 Python Programming Fundamentals (Flow Control)\3.1 Conditions and Branching.md">3.1 Conditions and Branching</a></summary>
+Subsections Here
+</details>
+ 
+<details>
+<summary><a href="\3 Python Programming Fundamentals (Flow Control)\3.2 Loops.md">3.2 Loops</a></summary>
+Subsections Here
+</details>
+ 
+<details>
+<summary><a href="\3 Python Programming Fundamentals (Flow Control)\3.3 Functions.md">3.3 Functions</a></summary>
+Subsections Here
+</details>
+
+<details>
+<summary><a href="\3 Python Programming Fundamentals (Flow Control)\3.4 Objects and Classes.md">3.4 Objects and Classes</a></summary>
+Subsections Here
+</details>
+
+<details>
+<summary><a href="\3 Python Programming Fundamentals (Flow Control)\3.5 Exception Handling.md">3.5 Exception Handling</a></summary>
+
+Subsections Here
+
 </details>
 ___
 
 ## Module 4 - Working with Data in Python
 
 
-Module 5 - Working with Numpy Arrays & Simple APIs
+## Module 5 - Working with Numpy Arrays & Simple APIs
 
 ...
