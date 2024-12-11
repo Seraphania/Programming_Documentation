@@ -1,5 +1,5 @@
 Index for python learning
- test vscode
+ test vscode...
 
 https://apps.cognitiveclass.ai/learning/course/course-v1:CognitiveClass+PY0101EN+v3/home
 
