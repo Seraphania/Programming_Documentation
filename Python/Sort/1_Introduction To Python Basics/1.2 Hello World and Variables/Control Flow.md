@@ -1,6 +1,6 @@
-﻿Control Flow
+﻿*ChatGPT:*  
+Control Flow  
 Understand if statements, loops (for and while), and basic error handling.
-
 Task 4: User Input and Conditionals
 
 Create a script that takes user input for their age. Based on the age, print different messages. For example:
@@ -14,9 +14,10 @@ Remember to convert the user input to an integer using int().
 Give it a try, and let me know when you're ready to discuss your solution!
 
 ___
-I have mostly solved it, I am getting an error though; "TypeError: '<=' not supported between instances of 'str' and 'int'" can you explain what this means?
-ChatGPT
+*Me:*  
+I have mostly solved it, I am getting an error though; `TypeError: '<=' not supported between instances of 'str' and 'int'` can you explain what this means?  
 
+*ChatGPT:*  
 Certainly! The error you're encountering, TypeError: '<=' not supported between instances of 'str' and 'int', suggests that you're trying to use the less than or equal to (<=) operator between a string and an integer.
 
 In Python, when you receive input using the input() function, it is treated as a string by default. If you're comparing the input to numerical values, you need to convert the input to an integer using the int() function.
