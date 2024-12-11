@@ -1,5 +1,4 @@
 # Index for python learning
-quick home test...
 *Based on learning structure from*  
 https://apps.cognitiveclass.ai/learning/course/course-v1:CognitiveClass+PY0101EN+v3/home
 
@@ -78,4 +77,7 @@ ___
 
 ## Module 5 - Working with Numpy Arrays & Simple APIs
 
-...
+___
+## References
+<a href="\References\Python Cheat Sheet.pdf">Python Cheat Sheet</a>  
+<a href="\References\Python Function Reference.pdf">Python Function Reference</a>
