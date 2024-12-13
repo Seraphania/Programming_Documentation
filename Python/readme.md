@@ -5,7 +5,10 @@ https://apps.cognitiveclass.ai/learning/course/course-v1:CognitiveClass+PY0101EN
 ### Module 1 - Python Basics
 <details>
 <summary><a href="\1 Python Basics\1.1 Hello World.md">1.1 Hello World</a></summary>
-Subsections Here
+
+ - [Print Formatting](./1%20Python%20Basics/1.1%20Hello%20World.md#print-formatting)
+ - [F-strings and printing variables](./1%20Python%20Basics/1.1%20Hello%20World.md#f-strings-and-printing-variables)
+
 </details>
 
 <details>
