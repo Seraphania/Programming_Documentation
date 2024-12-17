@@ -39,3 +39,10 @@ If your Python installation is in the system PATH, this command should work. If 
 C:\Path\to\python.exe hello_world.py
 ```
 If you've set up Python correctly, you should see "Hello, World!" printed in the Command Prompt.
+
+### Check the Python Version
+sys is a built-in module that contains many system-specific parameters and functions, including the Python version in use. Before using it, it must be imported, the current version of python can then be printed:
+```py
+import sys 
+print(sys.version)
+```
