@@ -7,7 +7,7 @@ https://apps.cognitiveclass.ai/learning/course/course-v1:CognitiveClass+PY0101EN
 <summary><a href="/1 Python Basics/1.1 Hello World.md">1.1 Hello World</a></summary>
 
  - [Print Formatting](/1%20Python%20Basics/1.1%20Hello%20World.md#print-formatting)
- - [F-strings and printing variables](/1%20Python%20Basics/1.1%20Hello%20World.md#f-strings-and-printing-variables)
+ - [F-strings and Printing Variables](/1%20Python%20Basics/1.1%20Hello%20World.md#f-strings-and-printing-variables)
 
 </details>
 
@@ -19,8 +19,13 @@ https://apps.cognitiveclass.ai/learning/course/course-v1:CognitiveClass+PY0101EN
 </details>
 
 <details>
-<summary><a href="\1 Python Basics\1.3 Expressions and Variables.md">*1.3 Expressions and Variables</a></summary>
-Subsections Here
+<summary><a href="\1 Python Basics\1.3 Expressions and Variables.md">1.3 Expressions and Variables </a></summary>
+
+ - [Variables](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#variables)  
+ - [Variables From User Input](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#variables-from-user-input)  
+ - [Expressions](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#expressions)  
+ - [Modulo *Needs link update 3.2](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#modulo)  
+ - [Expressions and Variables Excercises](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#expressions-and-variables-excercises)  
 </details>
 
 <details>
