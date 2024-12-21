@@ -15,7 +15,7 @@ https://apps.cognitiveclass.ai/learning/course/course-v1:CognitiveClass+PY0101EN
 <summary><a href="\1 Python Basics\1.2 Types.md">1.2 Types</a></summary>
 
  - [Type Casting](/1%20Python%20Basics/1.2%20Types.md#type-casting)  
- - [Advanced Type Casting](/1%20Python%20Basics/1.2%20Types.md#advanced-type-casting)
+ - [Advanced Type Casting *Needs link update 3.5](/1%20Python%20Basics/1.2%20Types.md#advanced-type-casting)
 </details>
 
 <details>
