@@ -29,8 +29,14 @@ https://apps.cognitiveclass.ai/learning/course/course-v1:CognitiveClass+PY0101EN
 </details>
 
 <details>
-<summary><a href="\1 Python Basics\1.4 String Operations.md">*1.4 String Operations</a></summary>
-Subsections Here
+<summary><a href="\1 Python Basics\1.4 String Operations.md">1.4 String Operations</a></summary>
+
+ - [Strings](/1%20Python%20Basics/1.4%20String%20Operations.md#strings)
+ - [Indexing](/1%20Python%20Basics/1.4%20String%20Operations.md#indexing)
+ - [Escape Sequences](/1%20Python%20Basics/1.4%20String%20Operations.md#escape-sequences)
+ - [String Operations](/1%20Python%20Basics/1.4%20String%20Operations.md#string-operations)
+ - [RegEx](/1%20Python%20Basics/1.4%20String%20Operations.md#regex)
+ - [String Excercises](/1%20Python%20Basics/1.4%20String%20Operations.md#string-excercises)
 </details>
 
 
