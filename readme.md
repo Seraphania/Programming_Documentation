@@ -11,31 +11,40 @@ https://apps.cognitiveclass.ai/learning/course/course-v1:CognitiveClass+PY0101EN
 
 </details>
 
+___
 <details>
 <summary><a href="\1 Python Basics\1.2 Types.md">1.2 Types</a></summary>
 
+ - [Comparability](/1%20Python%20Basics/1.2%20Types.md#comparability)  
  - [Type Casting](/1%20Python%20Basics/1.2%20Types.md#type-casting)  
  - [Advanced Type Casting *Needs link update 3.5](/1%20Python%20Basics/1.2%20Types.md#advanced-type-casting)
 </details>
 
+___
 <details>
 <summary><a href="\1 Python Basics\1.3 Expressions and Variables.md">1.3 Expressions and Variables </a></summary>
 
  - [Variables](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#variables)  
- - [Variables From User Input](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#variables-from-user-input)  
+   - [Variables From User Input](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#variables-from-user-input)  
  - [Expressions](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#expressions)  
- - [Modulo *Needs link update 3.2](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#modulo)  
+   - [Modulo *Needs link update 3.2](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#modulo)  
  - [Expressions and Variables Excercises](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#expressions-and-variables-excercises)  
 </details>
 
+___
 <details>
 <summary><a href="\1 Python Basics\1.4 String Operations.md">1.4 String Operations</a></summary>
 
  - [Strings](/1%20Python%20Basics/1.4%20String%20Operations.md#strings)
- - [Indexing](/1%20Python%20Basics/1.4%20String%20Operations.md#indexing)
- - [Escape Sequences](/1%20Python%20Basics/1.4%20String%20Operations.md#escape-sequences)
+   - [Indexing](/1%20Python%20Basics/1.4%20String%20Operations.md#indexing)
+   - [Slicing](/1%20Python%20Basics/1.4%20String%20Operations.md#slicing)
+   - [Stride](/1%20Python%20Basics/1.4%20String%20Operations.md#stride)
+   - [Concatenation](/1%20Python%20Basics/1.4%20String%20Operations.md#concatenation)
+   - [Escape Sequences](/1%20Python%20Basics/1.4%20String%20Operations.md#escape-sequences)
  - [String Operations](/1%20Python%20Basics/1.4%20String%20Operations.md#string-operations)
  - [RegEx](/1%20Python%20Basics/1.4%20String%20Operations.md#regex)
+   - [Special Sequences](/1%20Python%20Basics/1.4%20String%20Operations.md#special-sequences)
+   - [RegEx Functions](/1%20Python%20Basics/1.4%20String%20Operations.md#regex-functions)
  - [String Excercises](/1%20Python%20Basics/1.4%20String%20Operations.md#string-excercises)
 </details>
 

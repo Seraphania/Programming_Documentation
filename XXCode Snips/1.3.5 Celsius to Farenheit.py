@@ -1,8 +1,8 @@
-## Conversion from Celcius to Farenheit
+## Conversion from Celsius to Farenheit
 degree_sign = u"\u00b0"
 
 # Request input
-temp = input ("What is the Celcius temperature that you would like to convert to farenheiht? ")
+temp = input ("What is the Celsius temperature that you would like to convert to Fahrenheit? ")
 
 # Convert input temp to float
 float_temp = float(temp)
