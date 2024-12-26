@@ -52,10 +52,35 @@ ___
 ___
 ### Module 2 - Python Data Structures
 <details>
-<summary><a href="\2 Python Data Structures\2.1 Lists and Tuples.md">*2.1 Lists and Tuples</a></summary>
-Subsections Here
-</details>
+<summary><a href="\2 Python Data Structures\2.1 Lists and Tuples.md">2.1 Lists and Tuples</a></summary>
 
+- [Lists and Tuples](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#lists-and-tuples)
+- [Tuples](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#tuples)
+  - [Types](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#types)
+  - [Indexing](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#indexing)
+  - [Slicing](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#slicing)
+  - [Stride](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#stride)
+  - [Concatenation and immutability](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#concatenation-and-immutability)
+  - [Tuple Sorting](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#tuple-sorting)
+    - [Functions and Methods:](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#functions-and-methods)
+  - [Nesting](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#nesting)
+- [Tuple Exercises](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#tuple-exercises)
+- [Lists](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#lists)
+  - [Mutability,](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#mutability)
+    - [Return vs Modify](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#return-vs-modify)
+- [List Operations](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#list-operations)
+  - [List Modification](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#list-modification)
+  - [List Sorting](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#list-sorting)
+  - [Append](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#append)
+  - [Extend](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#extend)
+  - [Delete](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#delete)
+  - [Aliasing and Cloning](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#aliasing-and-cloning)
+    - [Aliasing](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#aliasing)
+    - [Cloning](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#cloning)
+- [List Exercises](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#list-exercises)
+
+</details>
+___
 <details>
 <summary><a href="\2 Python Data Structures\2.2 Sets.md">*2.2 Sets</a></summary>
 Subsections Here
