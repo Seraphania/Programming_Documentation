@@ -82,10 +82,23 @@ ___
 </details>
 ___
 <details>
-<summary><a href="\2 Python Data Structures\2.2 Sets.md">*2.2 Sets</a></summary>
-Subsections Here
-</details>
+<summary><a href="\2 Python Data Structures\2.2 Sets.md">2.2 Sets</a></summary>
 
+- [Contents](2%20Python%20Data%20Structures/2.2%20Sets.md#contents)
+- [Sets](2%20Python%20Data%20Structures/2.2%20Sets.md#sets)
+- [Set Operations](2%20Python%20Data%20Structures/2.2%20Sets.md#set-operations)
+  - [Add and Update](2%20Python%20Data%20Structures/2.2%20Sets.md#add-and-update)
+  - [Remove](2%20Python%20Data%20Structures/2.2%20Sets.md#remove)
+  - [In](2%20Python%20Data%20Structures/2.2%20Sets.md#in)
+- [Set Logic Operations](2%20Python%20Data%20Structures/2.2%20Sets.md#set-logic-operations)
+  - [Intersection](2%20Python%20Data%20Structures/2.2%20Sets.md#intersection)
+  - [Difference](2%20Python%20Data%20Structures/2.2%20Sets.md#difference)
+  - [Union](2%20Python%20Data%20Structures/2.2%20Sets.md#union)
+  - [Subset and Superset](2%20Python%20Data%20Structures/2.2%20Sets.md#subset-and-superset)
+- [List Exercises](2%20Python%20Data%20Structures/2.2%20Sets.md#list-exercises)
+
+</details>
+___
 <details>
 <summary><a href="\2 Python Data Structures\2.3 Dictionaries.md">*2.3 Dictionaries</a></summary>
 Subsections Here
