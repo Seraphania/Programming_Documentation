@@ -80,6 +80,7 @@ ___
 - [List Exercises](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#list-exercises)
 
 </details>
+
 ___
 <details>
 <summary><a href="\2 Python Data Structures\2.2 Sets.md">2.2 Sets</a></summary>
@@ -98,6 +99,7 @@ ___
 - [List Exercises](2%20Python%20Data%20Structures/2.2%20Sets.md#list-exercises)
 
 </details>
+
 ___
 <details>
 <summary><a href="\2 Python Data Structures\2.3 Dictionaries.md">*2.3 Dictionaries</a></summary>
