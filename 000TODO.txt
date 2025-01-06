@@ -1,0 +1,2 @@
+Sort out removal methods (currently in expressions and variables) perhaps move t lists and Tupels?
+add sections in lists for remove() pop() and clear()
