@@ -1,2 +1,92 @@
-Sort out removal methods (currently in expressions and variables) perhaps move t lists and Tupels?
-add sections in lists for remove() pop() and clear()
+NOT PYTHON: MD5 Hash calcuations:
+
+you explained before how MD5's are calculated, but could you maybe show me the step-by-step computation that goes on? lets say I have a text file containing the text "hello", can you show me how I could anually calculate the hash for that?
+In fact I even created "hello.txt" which is 5 bytes and has the word hello in it! :)
+ChatGPT said:
+ChatGPT
+
+Manually calculating an MD5 hash is a great learning exercise, but it's a bit of a journey! The algorithm involves multiple complex steps, so let’s break it down into manageable chunks. I'll focus on the high-level process with simple examples, but we can go into more detail if you'd like.
+MD5 Overview
+
+MD5 works in several stages:
+
+    Input Preprocessing:
+        Pad the input to make its size a multiple of 512 bits (64 bytes).
+        Append the original length of the input as a 64-bit value.
+
+    Initialize Constants:
+        MD5 uses four 32-bit words (A, B, C, D) initialized to specific values.
+
+    Process in 512-bit Chunks:
+        Break the padded input into 512-bit blocks.
+        Use a series of bitwise operations (additions, rotations, XORs, etc.) on each block.
+
+    Produce the Final Hash:
+        After processing all chunks, the final 128-bit hash is the concatenation of A, B, C, and D.
+
+Step-by-Step for Your "hello.txt"
+Step 1: Input Preprocessing
+
+    Binary Representation of "hello":
+        Convert "hello" to its ASCII values: 104 101 108 108 111.
+        Convert those to binary (8 bits each):
+        01101000 01100101 01101100 01101100 01101111.
+
+    Total = 40 bits (5 bytes).
+
+    Padding:
+        Add a single 1 bit, followed by enough 0 bits to make the length 448 bits (512 - 64).
+        After padding:
+        01101000 01100101 01101100 01101100 01101111 10000000 00000000 ... [lots of 0s].
+
+    Append Original Length:
+        The original length of "hello" is 40 bits (5 bytes × 8 bits). Represent this as a 64-bit binary value and append it.
+        After length appending:
+        ... [padded message] ... 00000000 00000000 00000000 00000000 00000000 00000000 00101000.
+
+    Now the message is exactly 512 bits.
+
+Step 2: Initialize Constants
+
+MD5 initializes the following four 32-bit words:
+
+    A = 0x67452301
+    B = 0xEFCDAB89
+    C = 0x98BADCFE
+    D = 0x10325476
+
+Step 3: Process the Single 512-bit Block
+
+MD5 processes the block using a compression function that involves 64 operations divided into four rounds. Each operation uses:
+
+    A specific mathematical function (F, G, H, or I).
+    Predefined constants (known as "sines of integers").
+    The block data (split into 16 words of 32 bits each).
+
+For brevity, here's one operation example:
+
+Round 1, Step 1:
+F(B, C, D) = (B AND C) OR ((NOT B) AND D)
+New A = (A + F + Data[0] + Constant) <<< ShiftAmount
+
+This process repeats for all 64 operations, updating A, B, C, and D.
+Step 4: Produce the Final Hash
+
+After processing all blocks:
+
+    Add the final values of A, B, C, and D to their initial values.
+    Concatenate the result as a hexadecimal string.
+
+For "hello", the final MD5 hash is:
+
+5d41402abc4b2a76b9719d911017c592
+
+How to Manually Verify?
+
+    Use Python: Write a small script to output intermediate steps for verification.
+    Online Tools: Compare results from tools like CyberChef or MD5 calculators.
+
+If you'd like to dive into a specific round or operation, let me know—I can work through an example!
+
+
+ChatGPT ca

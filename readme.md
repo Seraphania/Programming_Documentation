@@ -11,7 +11,6 @@ https://apps.cognitiveclass.ai/learning/course/course-v1:CognitiveClass+PY0101EN
 
 </details>
 
-___
 <details>
 <summary><a href="\1 Python Basics\1.2 Types.md">1.2 Types</a></summary>
 
@@ -20,34 +19,45 @@ ___
  - [Advanced Type Casting *Needs link update 3.5](/1%20Python%20Basics/1.2%20Types.md#advanced-type-casting)
 </details>
 
-___
 <details>
 <summary><a href="\1 Python Basics\1.3 Expressions and Variables.md">1.3 Expressions and Variables </a></summary>
 
- - [Variables](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#variables)  
-   - [Variables From User Input](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#variables-from-user-input)  
- - [Expressions](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#expressions)  
-   - [Modulo *Needs link update 3.2](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#modulo)  
- - [Expressions and Variables Excercises](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#expressions-and-variables-excercises)  
+- [Variables](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#variables)
+  - [Variables from user input](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#variables-from-user-input)
+- [Expressions](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#expressions)
+  - [Modulo](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#modulo)
+- [Advanced Removal Methods in Python Collections](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#advanced-removal-methods-in-python-collections)
+  - [del Statement](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#del-statement)
+  - [remove() Method](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#remove-method)
+  - [pop() Method](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#pop-method)
+  - [clear() Method](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#clear-method)
+  - [discard() Method](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#discard-method)
+  - [difference\_update() Method](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#difference_update-method)
+  - [Tuple Slicing](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.)
+- [Expressions and Variables Exercises:](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#expressions-and-variables-exercises)
+
 </details>
 
-___
 <details>
 <summary><a href="\1 Python Basics\1.4 String Operations.md">1.4 String Operations</a></summary>
 
- - [Strings](/1%20Python%20Basics/1.4%20String%20Operations.md#strings)
-   - [Indexing](/1%20Python%20Basics/1.4%20String%20Operations.md#indexing)
-   - [Slicing](/1%20Python%20Basics/1.4%20String%20Operations.md#slicing)
-   - [Stride](/1%20Python%20Basics/1.4%20String%20Operations.md#stride)
-   - [Concatenation](/1%20Python%20Basics/1.4%20String%20Operations.md#concatenation)
-   - [Escape Sequences](/1%20Python%20Basics/1.4%20String%20Operations.md#escape-sequences)
- - [String Operations](/1%20Python%20Basics/1.4%20String%20Operations.md#string-operations)
- - [RegEx](/1%20Python%20Basics/1.4%20String%20Operations.md#regex)
-   - [Special Sequences](/1%20Python%20Basics/1.4%20String%20Operations.md#special-sequences)
-   - [RegEx Functions](/1%20Python%20Basics/1.4%20String%20Operations.md#regex-functions)
- - [String Excercises](/1%20Python%20Basics/1.4%20String%20Operations.md#string-excercises)
-</details>
+- [Strings](/1%20Python%20Basics/1.4%20String%20Operations.md#strings)
+  - [Indexing](/1%20Python%20Basics/1.4%20String%20Operations.md#indexing)
+  - [Slicing](/1%20Python%20Basics/1.4%20String%20Operations.md#slicing)
+  - [Stride](/1%20Python%20Basics/1.4%20String%20Operations.md#stride)
+  - [Concatenation](/1%20Python%20Basics/1.4%20String%20Operations.md#concatenation)
+  - [Escape Sequences](/1%20Python%20Basics/1.4%20String%20Operations.md#escape-sequences)
+- [String Operations](/1%20Python%20Basics/1.4%20String%20Operations.md#string-operations)
+- [RegEx](/1%20Python%20Basics/1.4%20String%20Operations.md#regex)
+  - [Special Sequences](/1%20Python%20Basics/1.4%20String%20Operations.md#special-sequences)
+  - [RegEx Functions](/1%20Python%20Basics/1.4%20String%20Operations.md#regex-functions)
+    - [Search](/1%20Python%20Basics/1.4%20String%20Operations.md#search)
+    - [Findall](/1%20Python%20Basics/1.4%20String%20Operations.md#findall)
+    - [Split](/1%20Python%20Basics/1.4%20String%20Operations.md#split)
+    - [Sub](/1%20Python%20Basics/1.4%20String%20Operations.md#sub)
+- [String Exercises](/1%20Python%20Basics/1.4%20String%20Operations.md#string-exercises)
 
+</details>
 
 ___
 ### Module 2 - Python Data Structures
@@ -73,7 +83,11 @@ ___
   - [List Sorting](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#list-sorting)
   - [Append](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#append)
   - [Extend](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#extend)
-  - [Delete](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#delete)
+  - [Removal Methods](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#removal-methods)
+    - [Delete](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#delete)
+    - [Remove](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#remove)
+    - [Pop](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#pop)
+    - [Clear](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#clear)
   - [Aliasing and Cloning](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#aliasing-and-cloning)
     - [Aliasing](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#aliasing)
     - [Cloning](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#cloning)
@@ -81,15 +95,18 @@ ___
 
 </details>
 
-___
 <details>
 <summary><a href="\2 Python Data Structures\2.2 Sets.md">2.2 Sets</a></summary>
 
-- [Contents](2%20Python%20Data%20Structures/2.2%20Sets.md#contents)
 - [Sets](2%20Python%20Data%20Structures/2.2%20Sets.md#sets)
 - [Set Operations](2%20Python%20Data%20Structures/2.2%20Sets.md#set-operations)
   - [Add and Update](2%20Python%20Data%20Structures/2.2%20Sets.md#add-and-update)
-  - [Remove](2%20Python%20Data%20Structures/2.2%20Sets.md#remove)
+  - [Removal Methods](2%20Python%20Data%20Structures/2.2%20Sets.md#removal-methods)
+    - [Remove](2%20Python%20Data%20Structures/2.2%20Sets.md#remove)
+    - [Pop](2%20Python%20Data%20Structures/2.2%20Sets.md#pop)
+    - [Clear](2%20Python%20Data%20Structures/2.2%20Sets.md#clear)
+    - [Discard](2%20Python%20Data%20Structures/2.2%20Sets.md#discard)
+    - [Difference update](2%20Python%20Data%20Structures/2.2%20Sets.md#difference-update)
   - [In](2%20Python%20Data%20Structures/2.2%20Sets.md#in)
 - [Set Logic Operations](2%20Python%20Data%20Structures/2.2%20Sets.md#set-logic-operations)
   - [Intersection](2%20Python%20Data%20Structures/2.2%20Sets.md#intersection)
@@ -100,15 +117,29 @@ ___
 
 </details>
 
-___
 <details>
-<summary><a href="\2 Python Data Structures\2.3 Dictionaries.md">*2.3 Dictionaries</a></summary>
-Subsections Here
+<summary><a href="\2 Python Data Structures\2.3 Dictionaries.md">2.3 Dictionaries</a></summary>
+
+- [Dictionaries](/2%20Python%20Data%20Structures/2.3%20Dictionaries.md#dictionaries)
+- [Dictionary Operations](/2%20Python%20Data%20Structures/2.3%20Dictionaries.md#dictionary-operations)
+  - [Retrieve Values](/2%20Python%20Data%20Structures/2.3%20Dictionaries.md#retrieve-values)
+  - [Retrieve Keys](/2%20Python%20Data%20Structures/2.3%20Dictionaries.md#retrieve-keys)
+  - [In](/2%20Python%20Data%20Structures/2.3%20Dictionaries.md#in)
+  - [Add Keys and Values](/2%20Python%20Data%20Structures/2.3%20Dictionaries.md#add-keys-and-values)
+    - [Direct Assignment](/2%20Python%20Data%20Structures/2.3%20Dictionaries.md#direct-assignment)
+    - [Append](/2%20Python%20Data%20Structures/2.3%20Dictionaries.md#append)
+    - [Extend](/2%20Python%20Data%20Structures/2.3%20Dictionaries.md#extend)
+    - [Update](/2%20Python%20Data%20Structures/2.3%20Dictionaries.md#update)
+  - [Removal Methods](/2%20Python%20Data%20Structures/2.3%20Dictionaries.md#removal-methods)
+    - [Delete](/2%20Python%20Data%20Structures/2.3%20Dictionaries.md#delete)
+    - [Pop](/2%20Python%20Data%20Structures/2.3%20Dictionaries.md#pop)
+    - [Clear](/2%20Python%20Data%20Structures/2.3%20Dictionaries.md#clear)
+- [Dictionary Exercises](/2%20Python%20Data%20Structures/2.3%20Dictionaries.md#dictionary-exercises)
+
 </details>
 
 ___
-
-## Module 3 - Python Programming Fundamentals (Flow Control)
+### Module 3 - Python Programming Fundamentals (Flow Control)
 <details>
 <summary><a href="\3 Python Programming Fundamentals (Flow Control)\3.1 Conditions and Branching.md">3.1 Conditions and Branching</a></summary>
 Subsections Here
