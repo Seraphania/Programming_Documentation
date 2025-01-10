@@ -141,8 +141,14 @@ ___
 ___
 ### Module 3 - Python Programming Fundamentals (Flow Control)
 <details>
-<summary><a href="\3 Python Programming Fundamentals (Flow Control)\3.1 Conditions and Branching.md">3.1 Conditions and Branching</a></summary>
-Subsections Here
+<summary><a href="3 Control Flow\3.1 Conditions and Branching.md\">3.1 Conditions and Branching</a></summary>
+
+- [Conditions and Branching](/3%20Control%20Flow/3.1%20Conditions%20and%20Branching.md#conditions-and-branching)
+  - [Condition Statements](/3%20Control%20Flow/3.1%20Conditions%20and%20Branching.md#condition-statements)
+    - [Comparison Operators](/3%20Control%20Flow/3.1%20Conditions%20and%20Branching.md#comparison-operators)
+  - [Branching](/3%20Control%20Flow/3.1%20Conditions%20and%20Branching.md#branching)
+  - [Logical Operators](/3%20Control%20Flow/3.1%20Conditions%20and%20Branching.md#logical-operators)
+- [Condition Statement Exercises](/3%20Control%20Flow/3.1%20Conditions%20and%20Branching.md#condition-statement-exercises)
 </details>
  
 <details>
