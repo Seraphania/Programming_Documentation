@@ -10,6 +10,8 @@ for numbers in range (1, 11):
     print(numbers)
 
 input("Press the anykey to continue...")
+
+###########################################
 # print even numbers:
 # modify the previous program to print only the even numbers from 1 to 10.
 print("\ntask 1.2: modify the previous program to print only the even numbers from 1 to 10")
@@ -18,6 +20,8 @@ for numbers in range (1, 11):
         print(numbers)
 
 input("Press the anykey to continue...")
+
+###########################################
 # sum of numbers:
 # write a program to calculate and print the sum of numbers from 1 to 10.
 print("\ntask 1.3: write a program to calculate and print the sum of numbers from 1 to 10")
@@ -28,8 +32,39 @@ for num in range (1, 11):
         Total += num
 print("the sum of the even numbers from 1-10 is: ", Total)
 
-        
 input("Press the anykey to continue...")
+
+###########################################
+##  Generate a list of 10 random integers between 1 and 100. 
+##   Print the list, and then print the sum of all the even numbers in the list.
+
+# Generate a list of 10 random integers from 1-100
+counter = 0
+numbers_list = []
+import random
+
+while counter < 10:
+    number = random.randint(1,100)
+    numbers_list.append(number)
+    counter += 1
+
+# Print the list nicely
+print("Generated some random numbers: ", *numbers_list, sep = "\n")
+
+# Sum all the even numbers in the list
+#evens = []
+#for num in numbers_list:
+#    if num %2 == 0:
+#        evens.append(num)
+## better version:
+even_sum = sum(num for num in numbers_list if num %2 ==0)
+
+# Print the sum of those numbers
+print ("The sum of the even numbers in this list is: ", even_sum)
+
+input("Press the anykey to continue...")
+
+###########################################
 # level 2: intermediate
 # factorial calculation:
 # write a program to calculate the factorial of a given number using a for loop.
@@ -49,6 +84,26 @@ factorial = math.prod(numbers)
 print(f"the factorial of {inputnum} is {factorial}")
 
 input("Press the anykey to continue...")
+
+###########################################
+## Calculate the sum of a list of numbers entered by the user
+
+# Request input (and check it's an integer)
+while True:
+    try:
+        numbers = input("Please enter some numbers seperated by spaces: ")
+        break
+    except ValueError:
+        print("Please enter an integer: ")
+        
+numbers_list = [int(num) for num in numbers.split()]
+
+sum_numbers = sum(numbers_list)
+print("The sum of the numbers is: ", sum_numbers)
+
+input("Press the anykey to continue...")
+
+###########################################
 # multiplication table:
 # print the multiplication table (up to 12) for a given number using a nested for loop.
 def getpositiveinteger(prompt):
@@ -69,6 +124,8 @@ for line in rows[-12:]:
     print(line)
 
 input("Press the anykey to continue...")
+
+###########################################
 # count characters:
 # take a user input string and use a for loop to count the number of characters in it.
 print("\ntask 2.3: take a user input string and use a for loop to count the number of characters in it.")
@@ -79,8 +136,9 @@ for i in string:
 print("the length of the string you entered is: ", (length))
 print("but also... just len(string)) = ", len(string))
 
-
 input("Press the anykey to continue...")
+
+###########################################
 # level 3: advanced
 # prime numbers:
 # write a program to check if a given number is prime or not. use a for loop to iterate through potential divisors.
@@ -110,6 +168,8 @@ else:
     print((inputnum), " is a prime number")    
 
 input("Press the anykey to continue...")
+
+###########################################
 # fibonacci sequence:
 # print the first 10 numbers in the fibonacci sequence using a for loop.
 def getpositiveinteger(prompt):
@@ -132,6 +192,8 @@ for row in fibseq:
     print(row)
 
 input("Press the anykey to continue...")
+
+###########################################
 # Palindrome Check:
 # Write a program to check if a given string is a palindrome (reads the same backward as forward) using a loop.
 print("\ntask 3.3: Write a program to check if a given string is a palindrome.")
@@ -142,6 +204,8 @@ else:
     print(f"'{String}' Is not a palindrome")
 
 input("Press the anykey to continue...")
+
+###########################################
 # Level 4: Expert
 # FizzBuzz:
 # Write a program that prints the numbers from 1 to 100. But for multiples of three, print "Fizz" instead of the number, 
@@ -157,7 +221,9 @@ for i in range(1, 101):
     else:
         print(i)
         
-input("Press the anykey to continue...")     
+input("Press the anykey to continue...")
+
+###########################################
 # pascal's triangle:
 # generate and print the first x rows of pascal's triangle using nested loops.
 def get_positive_integer(prompt):
@@ -197,6 +263,8 @@ for row in triangle:
     print(string.center(triangle_width))
 
 input("Press the anykey to continue...")
+
+###########################################
 # Guess the Number Game:
 # Create a simple number guessing game. Generate a random number between 1 and 100, and let the user guess the number. 
 # Provide hints like "Too high" or "Too low" until the correct number is guessed.
@@ -248,65 +316,3 @@ while True:
         exit()
 
 input("Press the anykey to continue...")
-# Bonus: Miss Nix's Multiplication Game:
-# This Game will present a player with a selected times table and then test them on it.
-print("\ntask Bonus! Miss Nix's Multiplication Game")
-import random
-# Generate the times table for memorisation
-def Matrix(Table):
-    rows = [f"{x} x {y} = {x*y}" for x in range(1, Table + 1) for y in range(1, 13)]
-    print("here is the", Table, "times table: ")
-    for line in rows[-12:]:
-        print(line)
-    input("Press the enter When you're ready to be tested...")
-    for i in range(1, 1000):
-        print("\n")       
-# Validate user guess input
-def GetPositiveInteger(prompt):
-    while True:
-        try:
-            num = int(input(prompt))
-            if num > 0:
-                return num
-            else:
-                print("Please enter a positive number for your answer.")
-        except ValueError:
-            print("Please enter a valid number: ")
-# Validate user continue input
-def Continue(ask):
-    while ask not in ("y", "n"):
-        ask = input("Invalid input. To continue please enter 'y' to exit please enter 'n' ")
-    if ask == "y":
-        return ask
-    else:
-        print("kthnxbye :)")
-        exit()
-# Test whether the guess is correct
-def CheckCorrect(Guess, CorrectNum):        
-    if Guess == CorrectNum:
-        print("Correct!")
-        return True
-    else:
-        print("Sorry, That's not right, would you like to try again? ")
-        return False       
-# Main Game loop
-Start = input("Welcome to Miss Nix's Multiplication Game! \nYou choose a times table to memorise, then you will be tested on it. \nAre you ready to play? (y/n) ")
-Continue(Start)
-while True:
-    if Start == "y":
-        Table = GetPositiveInteger("Which times table would you like to look at? (please enter a number): ")
-        Matrix(Table)
-        Random = random.randint(1, 12)
-        CorrectNum = Random * Table
-        Count = 0
-        while Count < 5:
-            Random = random.randint(1, 12)
-            CorrectNum = Random * Table
-            Guess = GetPositiveInteger(f"What is {Table} X {Random}?: ")
-            if CheckCorrect(Guess, CorrectNum):
-                Count += 1
-        Restart = input("Nice, 5 correct answers! Would you like to play again? ")
-        Start = Continue(Restart)
-    else:
-        print("kthnxbye :)")
-        exit()

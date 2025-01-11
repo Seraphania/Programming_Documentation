@@ -3,10 +3,6 @@
 ##  2: "Solving code challenges using excel spreadsheets counts as an esoteric language"
 ##--------------------------------------------------------------------------------------
 
-
-
-
-
 # 1. Nested Loops:
 # Introduction:
 # Nested loops involve using one or more loops inside another loop. They are useful for iterating through combinations of elements in nested data structures.

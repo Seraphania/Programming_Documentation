@@ -152,8 +152,18 @@ ___
 </details>
  
 <details>
-<summary><a href="\3 Python Programming Fundamentals (Flow Control)\3.2 Loops.md">3.2 Loops</a></summary>
-Subsections Here
+<summary><a href="\3 Control Flow\3.2 Loops.md">3.2 Loops</a></summary>
+
+- [Range](/3%20Control%20Flow/3.2%20Loops.md#range)
+- [Loops in Python](/3%20Control%20Flow/3.2%20Loops.md#loops-in-python)
+  - [For Loops](/3%20Control%20Flow/3.2%20Loops.md#for-loops)
+    - [Basic Syntax](/3%20Control%20Flow/3.2%20Loops.md#basic-syntax)
+    - [Iteration](/3%20Control%20Flow/3.2%20Loops.md#iteration)
+    - [Enumerating Lists](/3%20Control%20Flow/3.2%20Loops.md#enumerating-lists)
+  - [While Loops](/3%20Control%20Flow/3.2%20Loops.md#while-loops)
+    - [Basic Syntax](/3%20Control%20Flow/3.2%20Loops.md#basic-syntax-1)
+    - [Breaking Loops](/3%20Control%20Flow/3.2%20Loops.md#breaking-loops)
+- [Loop Exercises](/3%20Control%20Flow/3.2%20Loops.md#loop-exercises)
 </details>
  
 <details>
