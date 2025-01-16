@@ -167,8 +167,17 @@ ___
 </details>
  
 <details>
-<summary><a href="\3 Python Programming Fundamentals (Flow Control)\3.3 Functions.md">3.3 Functions</a></summary>
-Subsections Here
+<summary><a href="\3 Control Flow\3.3 Functions.md">3.3 Functions</a></summary>
+
+- [Functions](/3%20Control%20Flow/3.3%20Functions.md#functions)
+  - [Pre-defined functions](/3%20Control%20Flow/3.3%20Functions.md#pre-defined-functions)
+  - [User Defined Functions](/3%20Control%20Flow/3.3%20Functions.md#user-defined-functions)
+- [Variables](/3%20Control%20Flow/3.3%20Functions.md#variables)
+  - [Default Arguments](/3%20Control%20Flow/3.3%20Functions.md#default-arguments)
+- [Collections and Functions](/3%20Control%20Flow/3.3%20Functions.md#collections-and-functions)
+- [Conditionals and Loops in Functions](/3%20Control%20Flow/3.3%20Functions.md#conditionals-and-loops-in-functions)
+- [String Comparison in Functions:](/3%20Control%20Flow/3.3%20Functions.md#string-comparison-in-functions)
+- [Function Exercises](/3%20Control%20Flow/3.3%20Functions.md#function-exercises)
 </details>
 
 <details>
