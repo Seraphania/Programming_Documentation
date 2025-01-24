@@ -182,7 +182,12 @@ ___
 
 <details>
 <summary><a href="\3 Python Programming Fundamentals (Flow Control)\3.4 Objects and Classes.md">3.4 Objects and Classes</a></summary>
-Subsections Here
+
+- [Classes and Objects in Python](/3%20Control%20Flow/3.4%20Objects%20and%20Classes.md#classes-and-objects-in-python)
+  - [Creating a class](/3%20Control%20Flow/3.4%20Objects%20and%20Classes.md#creating-a-class)
+  - [Instances of a Class - Objects and Attributes](/3%20Control%20Flow/3.4%20Objects%20and%20Classes.md#instances-of-a-class---objects-and-attributes)
+  - [Methods](/3%20Control%20Flow/3.4%20Objects%20and%20Classes.md#methods)
+- [Class Excercises](/3%20Control%20Flow/3.4%20Objects%20and%20Classes.md#class-excercises)
 </details>
 
 <details>
