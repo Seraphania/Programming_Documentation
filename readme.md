@@ -207,6 +207,7 @@ ___
 ## References
 <a href="/References/Python Cheat Sheet.pdf">Python Cheat Sheet</a>  
 <a href="/References/Python Function Reference.pdf">Python Function Reference</a>  
+<a href="/References/VS Code Windows Keyboard Shortcuts.pdf">VS Code Windows Keyboard Shortcuts</a>  
 <a href="/References/Learning Python with ChatGPT.md">GPT Learning Course</a>  
 <a href="/References/Useful Functions.py">Useful Functions</a>  
 <a href="/References/Template.py">Python Template</a>  
