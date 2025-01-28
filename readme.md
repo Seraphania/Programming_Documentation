@@ -3,24 +3,21 @@
 https://apps.cognitiveclass.ai/learning/course/course-v1:CognitiveClass+PY0101EN+v3/home
 
 ### Module 1 - Python Basics
-<details>
-<summary><a href="/1 Python Basics/1.1 Hello World.md">1.1 Hello World</a></summary>
+<details><summary><a href="/1 Python Basics/1.1 Hello World.md">1.1 Hello World</a></summary>
 
  - [Print Formatting](/1%20Python%20Basics/1.1%20Hello%20World.md#print-formatting)
  - [F-strings and Printing Variables](/1%20Python%20Basics/1.1%20Hello%20World.md#f-strings-and-printing-variables)
 
 </details>
 
-<details>
-<summary><a href="\1 Python Basics\1.2 Types.md">1.2 Types</a></summary>
+<details><summary><a href="\1 Python Basics\1.2 Types.md">1.2 Types</a></summary>
 
  - [Comparability](/1%20Python%20Basics/1.2%20Types.md#comparability)  
  - [Type Casting](/1%20Python%20Basics/1.2%20Types.md#type-casting)  
  - [Advanced Type Casting *Needs link update 3.5](/1%20Python%20Basics/1.2%20Types.md#advanced-type-casting)
 </details>
 
-<details>
-<summary><a href="\1 Python Basics\1.3 Expressions and Variables.md">1.3 Expressions and Variables </a></summary>
+<details><summary><a href="\1 Python Basics\1.3 Expressions and Variables.md">1.3 Expressions and Variables </a></summary>
 
 - [Variables](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#variables)
   - [Variables from user input](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#variables-from-user-input)
@@ -38,8 +35,7 @@ https://apps.cognitiveclass.ai/learning/course/course-v1:CognitiveClass+PY0101EN
 
 </details>
 
-<details>
-<summary><a href="\1 Python Basics\1.4 String Operations.md">1.4 String Operations</a></summary>
+<details><summary><a href="\1 Python Basics\1.4 String Operations.md">1.4 String Operations</a></summary>
 
 - [Strings](/1%20Python%20Basics/1.4%20String%20Operations.md#strings)
   - [Indexing](/1%20Python%20Basics/1.4%20String%20Operations.md#indexing)
@@ -61,8 +57,7 @@ https://apps.cognitiveclass.ai/learning/course/course-v1:CognitiveClass+PY0101EN
 
 ___
 ### Module 2 - Python Data Structures
-<details>
-<summary><a href="\2 Python Data Structures\2.1 Lists and Tuples.md">2.1 Lists and Tuples</a></summary>
+<details><summary><a href="\2 Python Data Structures\2.1 Lists and Tuples.md">2.1 Lists and Tuples</a></summary>
 
 - [Lists and Tuples](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#lists-and-tuples)
 - [Tuples](/2%20Python%20Data%20Structures/2.1%20Lists%20and%20Tuples.md#tuples)
@@ -95,8 +90,7 @@ ___
 
 </details>
 
-<details>
-<summary><a href="\2 Python Data Structures\2.2 Sets.md">2.2 Sets</a></summary>
+<details><summary><a href="\2 Python Data Structures\2.2 Sets.md">2.2 Sets</a></summary>
 
 - [Sets](2%20Python%20Data%20Structures/2.2%20Sets.md#sets)
 - [Set Operations](2%20Python%20Data%20Structures/2.2%20Sets.md#set-operations)
@@ -117,8 +111,7 @@ ___
 
 </details>
 
-<details>
-<summary><a href="\2 Python Data Structures\2.3 Dictionaries.md">2.3 Dictionaries</a></summary>
+<details><summary><a href="\2 Python Data Structures\2.3 Dictionaries.md">2.3 Dictionaries</a></summary>
 
 - [Dictionaries](/2%20Python%20Data%20Structures/2.3%20Dictionaries.md#dictionaries)
 - [Dictionary Operations](/2%20Python%20Data%20Structures/2.3%20Dictionaries.md#dictionary-operations)
@@ -140,64 +133,65 @@ ___
 
 ___
 ### Module 3 - Python Programming Fundamentals (Flow Control)
-<details>
-<summary><a href="3 Control Flow\3.1 Conditions and Branching.md\">3.1 Conditions and Branching</a></summary>
+<details><summary><a href="3 Flow Control\3.1 Conditions and Branching.md\">3.1 Conditions and Branching</a></summary>
 
-- [Conditions and Branching](/3%20Control%20Flow/3.1%20Conditions%20and%20Branching.md#conditions-and-branching)
-  - [Condition Statements](/3%20Control%20Flow/3.1%20Conditions%20and%20Branching.md#condition-statements)
-    - [Comparison Operators](/3%20Control%20Flow/3.1%20Conditions%20and%20Branching.md#comparison-operators)
-  - [Branching](/3%20Control%20Flow/3.1%20Conditions%20and%20Branching.md#branching)
-  - [Logical Operators](/3%20Control%20Flow/3.1%20Conditions%20and%20Branching.md#logical-operators)
-- [Condition Statement Exercises](/3%20Control%20Flow/3.1%20Conditions%20and%20Branching.md#condition-statement-exercises)
+- [Conditions and Branching](/3%20Flow%20Control/3.1%20Conditions%20and%20Branching.md#conditions-and-branching)
+  - [Condition Statements](/3%20Flow%20Control/3.1%20Conditions%20and%20Branching.md#condition-statements)
+    - [Comparison Operators](/3%20Flow%20Control/3.1%20Conditions%20and%20Branching.md#comparison-operators)
+  - [Branching](/3%20Flow%20Control/3.1%20Conditions%20and%20Branching.md#branching)
+  - [Logical Operators](/3%20Flow%20Control/3.1%20Conditions%20and%20Branching.md#logical-operators)
+- [Condition Statement Exercises](/3%20Flow%20Control/3.1%20Conditions%20and%20Branching.md#condition-statement-exercises)
 </details>
  
-<details>
-<summary><a href="\3 Control Flow\3.2 Loops.md">3.2 Loops</a></summary>
+<details><summary><a href="\3 Flow Control\3.2 Loops.md">3.2 Loops</a></summary>
 
-- [Range](/3%20Control%20Flow/3.2%20Loops.md#range)
-- [Loops in Python](/3%20Control%20Flow/3.2%20Loops.md#loops-in-python)
-  - [For Loops](/3%20Control%20Flow/3.2%20Loops.md#for-loops)
-    - [Basic Syntax](/3%20Control%20Flow/3.2%20Loops.md#basic-syntax)
-    - [Iteration](/3%20Control%20Flow/3.2%20Loops.md#iteration)
-    - [Enumerating Lists](/3%20Control%20Flow/3.2%20Loops.md#enumerating-lists)
-  - [While Loops](/3%20Control%20Flow/3.2%20Loops.md#while-loops)
-    - [Basic Syntax](/3%20Control%20Flow/3.2%20Loops.md#basic-syntax-1)
-    - [Breaking Loops](/3%20Control%20Flow/3.2%20Loops.md#breaking-loops)
-- [Loop Exercises](/3%20Control%20Flow/3.2%20Loops.md#loop-exercises)
+- [Range](/3%20Flow%20Control/3.2%20Loops.md#range)
+- [Loops in Python](/3%20Flow%20Control/3.2%20Loops.md#loops-in-python)
+  - [For Loops](/3%20Flow%20Control/3.2%20Loops.md#for-loops)
+    - [Basic Syntax](/3%20Flow%20Control/3.2%20Loops.md#basic-syntax)
+    - [Iteration](/3%20Flow%20Control/3.2%20Loops.md#iteration)
+    - [Enumerating Lists](/3%20Flow%20Control/3.2%20Loops.md#enumerating-lists)
+  - [While Loops](/3%20Flow%20Control/3.2%20Loops.md#while-loops)
+    - [Basic Syntax](/3%20Flow%20Control/3.2%20Loops.md#basic-syntax-1)
+    - [Breaking Loops](/3%20Flow%20Control/3.2%20Loops.md#breaking-loops)
+- [Loop Exercises](/3%20Flow%20Control/3.2%20Loops.md#loop-exercises)
 </details>
  
-<details>
-<summary><a href="\3 Control Flow\3.3 Functions.md">3.3 Functions</a></summary>
+<details><summary><a href="\3 Flow Control\3.3 Functions.md">3.3 Functions</a></summary>
 
-- [Functions](/3%20Control%20Flow/3.3%20Functions.md#functions)
-  - [Pre-defined functions](/3%20Control%20Flow/3.3%20Functions.md#pre-defined-functions)
-  - [User Defined Functions](/3%20Control%20Flow/3.3%20Functions.md#user-defined-functions)
-- [Variables](/3%20Control%20Flow/3.3%20Functions.md#variables)
-  - [Default Arguments](/3%20Control%20Flow/3.3%20Functions.md#default-arguments)
-- [Collections and Functions](/3%20Control%20Flow/3.3%20Functions.md#collections-and-functions)
-- [Conditionals and Loops in Functions](/3%20Control%20Flow/3.3%20Functions.md#conditionals-and-loops-in-functions)
-- [String Comparison in Functions:](/3%20Control%20Flow/3.3%20Functions.md#string-comparison-in-functions)
-- [Function Exercises](/3%20Control%20Flow/3.3%20Functions.md#function-exercises)
+- [Functions](/3%20Flow%20Control/3.3%20Functions.md#functions)
+  - [Pre-defined functions](/3%20Flow%20Control/3.3%20Functions.md#pre-defined-functions)
+  - [User Defined Functions](/3%20Flow%20Control/3.3%20Functions.md#user-defined-functions)
+- [Variables](/3%20Flow%20Control/3.3%20Functions.md#variables)
+  - [Default Arguments](/3%20Flow%20Control/3.3%20Functions.md#default-arguments)
+- [Collections and Functions](/3%20Flow%20Control/3.3%20Functions.md#collections-and-functions)
+- [Conditionals and Loops in Functions](/3%20Flow%20Control/3.3%20Functions.md#conditionals-and-loops-in-functions)
+- [String Comparison in Functions:](/3%20Flow%20Control/3.3%20Functions.md#string-comparison-in-functions)
+- [Function Exercises](/3%20Flow%20Control/3.3%20Functions.md#function-exercises)
 </details>
 
 <details>
-<summary><a href="\3 Python Programming Fundamentals (Flow Control)\3.4 Objects and Classes.md">3.4 Objects and Classes</a></summary>
+<summary><a href="\3 Flow Control\3.4 Objects and Classes.md">3.4 Objects and Classes</a></summary>
 
-- [Classes and Objects in Python](/3%20Control%20Flow/3.4%20Objects%20and%20Classes.md#classes-and-objects-in-python)
-  - [Creating a class](/3%20Control%20Flow/3.4%20Objects%20and%20Classes.md#creating-a-class)
-  - [Instances of a Class - Objects and Attributes](/3%20Control%20Flow/3.4%20Objects%20and%20Classes.md#instances-of-a-class---objects-and-attributes)
-  - [Methods](/3%20Control%20Flow/3.4%20Objects%20and%20Classes.md#methods)
-- [Class Excercises](/3%20Control%20Flow/3.4%20Objects%20and%20Classes.md#class-excercises)
+- [Classes and Objects in Python](/3%20Flow%20Control/3.4%20Objects%20and%20Classes.md#classes-and-objects-in-python)
+  - [Creating a class](/3%20Flow%20Control/3.4%20Objects%20and%20Classes.md#creating-a-class)
+  - [Instances of a Class - Objects and Attributes](/3%20Flow%20Control/3.4%20Objects%20and%20Classes.md#instances-of-a-class---objects-and-attributes)
+  - [Methods](/3%20Flow%20Control/3.4%20Objects%20and%20Classes.md#methods)
+- [Class Excercises](/3%20Flow%20Control/3.4%20Objects%20and%20Classes.md#class-excercises)
 </details>
 
 <details>
-<summary><a href="\3 Python Programming Fundamentals (Flow Control)\3.5 Exception Handling.md">3.5 Exception Handling</a></summary>
+<summary><a href="\3 Flow Control\3.5 Exception Handling.md">3.5 Exception Handling</a></summary>
 
-Subsections Here
+- [Exception Handling](/3%20Flow%20Control/3.5%20Exception%20Handling.md#exception-handling)
+  - [Try Except](/3%20Flow%20Control/3.5%20Exception%20Handling.md#try-except)
+  - [Try Except Specific](/3%20Flow%20Control/3.5%20Exception%20Handling.md#try-except-specific)
+  - [Try Except Else and Finally](/3%20Flow%20Control/3.5%20Exception%20Handling.md#try-except-else-and-finally)
+- [Exception Handling Exercises](/3%20Flow%20Control/3.5%20Exception%20Handling.md#exception-handling-exercises)
 
 </details>
+
 ___
-
 ## Module 4 - Working with Data in Python
 
 
