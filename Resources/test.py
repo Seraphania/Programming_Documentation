@@ -1,8 +1,10 @@
-a = 1
+import re
 
-try:
-    b = int(input("Please enter a number to divide a: "))
-    a = a/b
-    print("Success 1/", b ,"=",a)
-except:
-    print("There was an error")
+with open("fileToBeHandled.txt", "r") as file1:
+    words = set()
+    for line in file1:
+        for word in line.split():
+            words.add(word)
+    for i in words:
+        count = re.findall("i", file1)
+        print(f"Word: {i}, Count: {count}")
