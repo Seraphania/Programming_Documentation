@@ -188,6 +188,8 @@ ___
   - [Try Except Specific](/3%20Flow%20Control/3.5%20Exception%20Handling.md#try-except-specific)
   - [Try Except Else and Finally](/3%20Flow%20Control/3.5%20Exception%20Handling.md#try-except-else-and-finally)
 - [Exception Handling Exercises](/3%20Flow%20Control/3.5%20Exception%20Handling.md#exception-handling-exercises)
+  - [Custom Exception Classes](/3%20Flow%20Control/3.5%20Exception%20Handling.md#custom-exception-classes)
+  - [Logging Exceptions](/3%20Flow%20Control/3.5%20Exception%20Handling.md#logging-exceptions)
 
 </details>
 
