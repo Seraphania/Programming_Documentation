@@ -170,8 +170,7 @@ ___
 - [Function Exercises](/3%20Flow%20Control/3.3%20Functions.md#function-exercises)
 </details>
 
-<details>
-<summary><a href="\3 Flow Control\3.4 Objects and Classes.md">3.4 Objects and Classes</a></summary>
+<details><summary><a href="\3 Flow Control\3.4 Objects and Classes.md">3.4 Objects and Classes</a></summary>
 
 - [Classes and Objects in Python](/3%20Flow%20Control/3.4%20Objects%20and%20Classes.md#classes-and-objects-in-python)
   - [Creating a class](/3%20Flow%20Control/3.4%20Objects%20and%20Classes.md#creating-a-class)
@@ -180,8 +179,7 @@ ___
 - [Class Excercises](/3%20Flow%20Control/3.4%20Objects%20and%20Classes.md#class-excercises)
 </details>
 
-<details>
-<summary><a href="\3 Flow Control\3.5 Exception Handling.md">3.5 Exception Handling</a></summary>
+<details><summary><a href="\3 Flow Control\3.5 Exception Handling.md">3.5 Exception Handling</a></summary>
 
 - [Exception Handling](/3%20Flow%20Control/3.5%20Exception%20Handling.md#exception-handling)
   - [Try Except](/3%20Flow%20Control/3.5%20Exception%20Handling.md#try-except)
@@ -194,7 +192,43 @@ ___
 </details>
 
 ___
-## Module 4 - Working with Data in Python
+### Module 4 - Working with Data in Python
+<details><summary><a href="\4 Working with Data in Python\4.1 Reading files with open.md">4.1 Reading files with open</a></summary>
+
+- [Reading Files](/4%20Working%20with%20Data%20in%20Python/4.1%20Reading%20files%20with%20open.md#reading-files)
+  - [Reading With with open()](/4%20Working%20with%20Data%20in%20Python/4.1%20Reading%20files%20with%20open.md#reading-with-with-open)
+  - [Reading Partial File Content](/4%20Working%20with%20Data%20in%20Python/4.1%20Reading%20files%20with%20open.md#reading-partial-file-content)
+  - [Read Lines With Loop](/4%20Working%20with%20Data%20in%20Python/4.1%20Reading%20files%20with%20open.md#read-lines-with-loop)
+- [File Reading Exercises](/4%20Working%20with%20Data%20in%20Python/4.1%20Reading%20files%20with%20open.md#file-reading-exercises)
+
+</details>
+
+
+
+
+<details><summary><a href="\4 Working with Data in Python\4.1 Reading files with open.md">4.1 Reading files with open</a></summary>
+
+Subsections here
+
+</details>
+
+<details><summary><a href="\4 Working with Data in Python\4.1 Reading files with open.md">4.1 Reading files with open</a></summary>
+
+Subsections here
+
+</details>
+
+<details><summary><a href="\4 Working with Data in Python\4.1 Reading files with open.md">4.1 Reading files with open</a></summary>
+
+Subsections here
+
+</details>
+
+<details><summary><a href="\4 Working with Data in Python\4.1 Reading files with open.md">4.1 Reading files with open</a></summary>
+
+Subsections here
+
+</details>
 
 
 ## Module 5 - Working with Numpy Arrays & Simple APIs
