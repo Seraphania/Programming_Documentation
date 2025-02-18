@@ -4,11 +4,11 @@
 import random
 
 # Random number generator
-def GetRandom():
+def get_random():
    return random.randint(1, 100)
 
 # Validate user guess input
-def GetPositiveInteger(prompt):
+def get_positive_integer(prompt):
     while True:
         try:
             num = int(input(prompt))
@@ -20,17 +20,17 @@ def GetPositiveInteger(prompt):
             print("Please enter a valid number: ")
 
 # Validate user continue input
-def Continue(ask):
+def continue_game(ask):
     while ask not in ("y", "n"):
         ask = input("Invalid inpuut. To contiinue please enter 'y' to exit please enter 'n' ")
     return ask
 
 # Evaluate guess 
-def CheckCorrect(Guess, CorrectNum):        
-    if Guess == CorrectNum:
+def check_correct(guess, correct_num):        
+    if guess == correct_num:
         print("Woo! Gratz you guessed it!!")
         return True
-    elif Guess < CorrectNum:
+    elif guess < correct_num:
         print("Nope, too low, guess again: ")
         return False
     else:
@@ -38,15 +38,15 @@ def CheckCorrect(Guess, CorrectNum):
         return False
         
 # Main Game loop
-Start = input("This is a game where I think of a number between 1 and 100 and you have to guess what it is. \nDo you want to have a guess? (y/n) ")
-Continue(Start)
+start = input("This is a game where I think of a number between 1 and 100 and you have to guess what it is. \nDo you want to have a guess? (y/n) ")
+continue_game(start)
 while True:
-    if Start == "y":
-        CorrectNum = GetRandom()
+    if start == "y":
+        correct_num = get_random()
         while True:
-            Guess = GetPositiveInteger("Please take a guess: ")
-            if CheckCorrect(Guess, CorrectNum):
-                Start = Continue("Would you like to play again? (y/n)")
+            guess = get_positive_integer("Please take a guess: ")
+            if check_correct(guess, correct_num):
+                start = continue_game("Would you like to play again? (y/n)")
                 break
     else:
         print("kthnxbye :)")
