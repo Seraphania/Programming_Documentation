@@ -2,56 +2,46 @@
 *Based on learning structure from*  
 https://apps.cognitiveclass.ai/learning/course/course-v1:CognitiveClass+PY0101EN+v3/home
 
-### Module 1 - Python Basics
-<details><summary><a href="/1 Python Basics/1.1 Hello World.md">1.1 Hello World</a></summary>
+## Module 1 - Python Basics
+### [1.1 Hello World](/1_python_basics/1.1_hello_world.md)  
+- [Hello World](/1_python_basics/1.1_hello_world.md#hello-world)
+  - [Print Formatting](/1_python_basics/1.1_hello_world.md#print-formatting)
+  - [F-strings](/1_python_basics/1.1_hello_world.md#f-strings)  
+- [Code Comments](/1_python_basics/1.1_hello_world.md#code-comments)
 
- - [Print Formatting](/1%20Python%20Basics/1.1%20Hello%20World.md#print-formatting)
- - [F-strings and Printing Variables](/1%20Python%20Basics/1.1%20Hello%20World.md#f-strings-and-printing-variables)
+### [1.2 Types](/1_python_basics/1.2_types.md)
+ - [Comparability](/1_python_basics/1.2_types.md#comparability)  
+ - [Type Casting](/1_python_basics/1.2_types.md#type-casting)  
+ - [Advanced Type Casting](/1_python_basics/1.2_types.md#advanced-type-casting)
 
-</details>
 
-<details><summary><a href="\1 Python Basics\1.2 Types.md">1.2 Types</a></summary>
+### [1.3 Expressions and Variables](/1_python_basics/1.3_expressions_and_variables.md)
 
- - [Comparability](/1%20Python%20Basics/1.2%20Types.md#comparability)  
- - [Type Casting](/1%20Python%20Basics/1.2%20Types.md#type-casting)  
- - [Advanced Type Casting](/1%20Python%20Basics/1.2%20Types.md#advanced-type-casting)
-</details>
+- [Expresssions vs Statements](/1_python_basics/1.3_expressions_and_variables.md#expresssions-vs-statements)
+  - [Expressions](/1_python_basics/1.3_expressions_and_variables.md#expressions)
+  - [Statements](/1_python_basics/1.3_expressions_and_variables.md#statements)
+    - [Advanced Removal methods for Python Collections](/1_python_basics/1.3_expressions_and_variables.md#advanced-removal-methods-for-python-collections)
+- [Variables](/1_python_basics/1.3_expressions_and_variables.md#variables)
+  - [Variables from user input](/1_python_basics/1.3_expressions_and_variables.md#variables-from-user-input)
+- [Expressions and Variables Exercises:](/1_python_basics/1.3_expressions_and_variables.md#expressions-and-variables-exercises)
 
-<details><summary><a href="\1 Python Basics\1.3 Expressions and Variables.md">1.3 Expressions and Variables </a></summary>
+### [1.4 String Operations](/1_python_basics/1.4_string_operations.md)
 
-- [Variables](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#variables)
-  - [Variables from user input](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#variables-from-user-input)
-- [Expressions](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#expressions)
-  - [Modulo](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#modulo)
-- [Advanced Removal Methods in Python Collections](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#advanced-removal-methods-in-python-collections)
-  - [del Statement](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#del-statement)
-  - [remove() Method](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#remove-method)
-  - [pop() Method](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#pop-method)
-  - [clear() Method](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#clear-method)
-  - [discard() Method](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#discard-method)
-  - [difference\_update() Method](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#difference_update-method)
-  - [Tuple Slicing](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.)
-- [Expressions and Variables Exercises:](/1%20Python%20Basics/1.3%20Expressions%20and%20Variables.md#expressions-and-variables-exercises)
-
-</details>
-
-<details><summary><a href="\1 Python Basics\1.4 String Operations.md">1.4 String Operations</a></summary>
-
-- [Strings](/1%20Python%20Basics/1.4%20String%20Operations.md#strings)
-  - [Indexing](/1%20Python%20Basics/1.4%20String%20Operations.md#indexing)
-  - [Slicing](/1%20Python%20Basics/1.4%20String%20Operations.md#slicing)
-  - [Stride](/1%20Python%20Basics/1.4%20String%20Operations.md#stride)
-  - [Concatenation](/1%20Python%20Basics/1.4%20String%20Operations.md#concatenation)
-  - [Escape Sequences](/1%20Python%20Basics/1.4%20String%20Operations.md#escape-sequences)
-- [String Operations](/1%20Python%20Basics/1.4%20String%20Operations.md#string-operations)
-- [RegEx](/1%20Python%20Basics/1.4%20String%20Operations.md#regex)
-  - [Special Sequences](/1%20Python%20Basics/1.4%20String%20Operations.md#special-sequences)
-  - [RegEx Functions](/1%20Python%20Basics/1.4%20String%20Operations.md#regex-functions)
-    - [Search](/1%20Python%20Basics/1.4%20String%20Operations.md#search)
-    - [Findall](/1%20Python%20Basics/1.4%20String%20Operations.md#findall)
-    - [Split](/1%20Python%20Basics/1.4%20String%20Operations.md#split)
-    - [Sub](/1%20Python%20Basics/1.4%20String%20Operations.md#sub)
-- [String Exercises](/1%20Python%20Basics/1.4%20String%20Operations.md#string-exercises)
+- [Strings](/1_python_basics/1.4_string_operations.md#strings)
+  - [Indexing](/1_python_basics/1.4_string_operations.md#indexing)
+  - [Slicing](/1_python_basics/1.4_string_operations.md#slicing)
+  - [Stride](/1_python_basics/1.4_string_operations.md#stride)
+  - [Concatenation](/1_python_basics/1.4_string_operations.md#concatenation)
+  - [Escape Sequences](/1_python_basics/1.4_string_operations.md#escape-sequences)
+- [String Operations](/1_python_basics/1.4_string_operations.md#string-operations)
+- [RegEx](/1_python_basics/1.4_string_operations.md#regex)
+  - [Special Sequences](/1_python_basics/1.4_string_operations.md#special-sequences)
+  - [RegEx Functions](/1_python_basics/1.4_string_operations.md#regex-functions)
+    - [Search](/1_python_basics/1.4_string_operations.md#search)
+    - [Findall](/1_python_basics/1.4_string_operations.md#findall)
+    - [Split](/1_python_basics/1.4_string_operations.md#split)
+    - [Sub](/1_python_basics/1.4_string_operations.md#sub)
+- [String Exercises](/1_python_basics/1.4_string_operations.md#string-exercises)
 
 </details>
 
