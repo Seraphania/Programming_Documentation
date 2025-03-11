@@ -11,6 +11,10 @@ for numbers in range (1, 11):
 
 input("Press the anykey to continue...")
 
+number =1
+while number <= 10:
+    print(number)
+    number += 1
 ###########################################
 # print even numbers:
 # modify the previous program to print only the even numbers from 1 to 10.
