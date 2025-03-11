@@ -5,9 +5,9 @@ https://apps.cognitiveclass.ai/learning/course/course-v1:CognitiveClass+PY0101EN
 ## Module 1 - Python Basics
 ### [1.1 Hello World](/1_python_basics/1.1_hello_world.md)  
 - [Hello World](Python/1_python_basics/1.1_hello_world.md)
-  - [Print Formatting](/1_python_basics/1.1_hello_world.md#print-formatting)
-  - [F-strings](/1_python_basics/1.1_hello_world.md#f-strings)  
-- [Code Comments](/1_python_basics/1.1_hello_world.md#code-comments)
+  - [Print Formatting](/Python1_python_basics/1.1_hello_world.md#print-formatting)
+  - [F-strings](/Python/1_python_basics/1.1_hello_world.md#f-strings)  
+- [Code Comments](/Python/1_python_basics/1.1_hello_world.md#code-comments)
 
 ### [1.2 Types](/1_python_basics/1.2_types.md)
  - [Comparability](/1_python_basics/1.2_types.md#comparability)  
