@@ -1,23 +1,3 @@
-# Git Commands
-To-do:  
-   _Should probably learn about secrets and include that_
-## Index:  
-1. [Introdction](#Introduction)
-2. [Git Setup and Token Setup](#Git-Setup-and-Token-Setup)
-   1. [Token Creation](#Token-Creation)
-   2. [Token Applicaton](#Token-Application)
-3. [Common Commands](#Common-Commands)
-   1. [Check Connection](#Check-Connection)
-   2. [Clone](#Clone)
-   3. [Push](#Push)
-   4. [Pull](#Pull)
-   5. [Checkout](#Checkout)
-
-## Introduction
-This describes git setup and common commands.  
-Git is a package which manages tracking changes in source code during software development. It is a disitrubuted Version Control System (VCS) Meaning you can have a complete copy of the project history on a local machine. It also runs syncing between local and remote repositories.
-
-Local repos might be a local file directory, remote repositories might be hosted on services like GitHub, GitLab or Bitbucket. 
 Common activities include: 
 - Pull Request (PR): 
   - In Git-based collaboration workflows, a pull request is a way to propose changes to a repository. It allows others to review, discuss, and suggest modifications before merging the changes into the main codebase.
@@ -116,17 +96,22 @@ ___
 #From GPT
 # GitHub Usage Guide
 ## Index
-1. [Introduction](#Introduction)
-2. [Setting up Git](#Setting-up-Git)
-3. [Git Operations](#Git-Operations)
-   1. [Cloning Repositories](#Cloning-Repositories)
-   2. [Committing Changes](#Committing-Changes)
-   3. [Pushing Changes](#Pushing-Changes)
-   4. [Pulling Changes](#Pulling-Changes)
-   5. [Branching](#Branching)
-   6. [Merging](#Merging)
-4. [VS Code Git Integration](#VS-Code-Git-Integration)
-5. [Collaboration with Pull Requests](#Collaboration-with-Pull-Requests)
+- [GitHub Usage Guide](#github-usage-guide)
+  - [Index](#index)
+  - [Introduction](#introduction)
+  - [Setting up Git](#setting-up-git)
+    - [Configuring Git](#configuring-git)
+  - [Git Operations](#git-operations)
+    - [Cloning Repositories](#cloning-repositories)
+    - [Committing Changes](#committing-changes)
+    - [Pushing Changes](#pushing-changes)
+    - [Pulling Changes](#pulling-changes)
+    - [Branching](#branching)
+    - [Merging](#merging)
+    - [VS Code Git Integration](#vs-code-git-integration)
+    - [View Commit History](#view-commit-history)
+    - [Collaboration with Pull Requests](#collaboration-with-pull-requests)
+    - [Creating Pull Requests from VS Code](#creating-pull-requests-from-vs-code)
 
 ## Introduction
 GitHub is a platform for version control and collaboration, allowing developers to work on projects together. This guide will explain the basics of using Git with GitHub, from setting up repositories to using Git operations in both the command line and Visual Studio Code.
