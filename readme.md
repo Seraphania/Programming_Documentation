@@ -1,4 +1,3 @@
-
 I'm testing changes. Thanks Amanda! -Blaze
 
 # Index for python learning
