@@ -32,7 +32,7 @@ Here's a basic workflow:
 ### Token Applicaton
 Configure git to use store  as the credential helper.  
 `git config --global credential.helper store`  
-Add the token to the credeentials:
+Add the token to the credentials:
 `echo "https://<username>:<your_token>@github.com" > ~/.git-credentials`  
 replace "<username>" with the username (Seraphnaia), and "<your token>" with the token generated. This can also be done by editing `~/.git-credentials` in a text editor.
 
